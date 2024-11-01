@@ -1,0 +1,185 @@
+syntax = "v1"
+
+type (
+	startGeoContainerResp {
+		success bool   `json:"success"`
+		info    string `json:"info"`
+	}
+)
+
+type (
+	delGeoContainerResp {
+		success bool   `json:"success"`
+		info    string `json:"info"`
+	}
+)
+
+type (
+	createImageMosaicByZipReqV2 {
+		uploadZipUrl string `json:"uploadZipUrl"`
+		zipFilePath  string `json:"zipFilePath"`
+	}
+	createImageMosaicByZipRespV2 {
+		success bool   `json:"success"`
+		info    string `json:"info"`
+	}
+)
+
+type (
+	createImageMosaicStoreReq {
+		taskId    string `json:"taskId"`
+		bucketUrl string `json:"bucketUrl"`
+	}
+	createImageMosaicStoreResp {
+		success bool   `json:"success"`
+		info    string `json:"info"`
+	}
+)
+
+type (
+	createImageMosaicByZipReq {
+		storeName string `json:"storeName"`
+		filePath  string `json:"filePath"`
+	}
+	createImageMosaicByZipResp {
+		success bool   `json:"success"`
+		info    string `json:"info"`
+	}
+)
+
+type (
+	delImageMosaicStoreReq {
+		storeName string `json:"storeName"`
+	}
+	delImageMosaicStoreResp {
+		success bool   `json:"success"`
+		info    string `json:"info"`
+	}
+)
+
+type (
+	delImageMosaicStoreReqV2 {
+		taskId string `json:"taskId"`
+	}
+	delImageMosaicStoreRespV2 {
+		success bool   `json:"success"`
+		info    string `json:"info"`
+	}
+)
+
+type (
+	createImageMosaicByStoreReq {
+		imageName  string `json:"imageName"`
+		imageTitle string `json:"imageTitle"`
+		storeName  string `json:"storeName"`
+	}
+	createImageMosaicByStoreResp {
+		success bool   `json:"success"`
+		info    string `json:"info"`
+	}
+)
+
+type (
+	delImageMosaicReq {
+		imageName string `json:"imageName"`
+		storeName string `json:"storeName"`
+	}
+	delImageMosaicReqV2 {
+		taskId string `json:"taskId"`
+	}
+)
+
+type (
+	createImageMosaicByStoreReqV2 {
+		taskId string `json:"taskId"`
+	}
+	createImageMosaicByStoreRespV2 {
+		success bool   `json:"success"`
+		info    string `json:"info"`
+	}
+)
+
+type (
+	errorResponse {
+		code    int32  `json:"code"`
+		message string `json:"message"`
+	}
+)
+
+type (
+	getServerStatusReq {
+		taskId string `form:"taskId"`
+	}
+)
+
+type (
+	createDataSourceReq {
+		taskId    string `json:"taskId"`
+		bucketUrl string `json:"bucketUrl"`
+	}
+	createDataSourceReqGet {
+		taskId    string `form:"taskId"`
+		bucketUrl string `form:"bucketUrl"`
+	}
+	delDataSourceReq {
+		taskId string `json:"taskId"`
+	}
+	delDataSourceReqGet {
+		taskId string `form:"taskId"`
+	}
+)
+
+@server (
+	prefix: /dataCenter/mdbServer/v1
+	group:  geoContainer
+)
+service geoserver-api {
+	@handler createDataSourceByGet
+	get /createDataSource (createDataSourceReqGet) returns (errorResponse)
+
+	@handler createDataSourceByPost
+	post /createDataSource (createDataSourceReq) returns (errorResponse)
+
+	@handler delDataSourceByGet
+	get /delDataSource (delDataSourceReqGet) returns (errorResponse)
+
+	@handler delDataSource
+	delete /delDataSource (delDataSourceReq) returns (errorResponse)
+
+	@handler getServerStatus
+	get /getServerStatus (getServerStatusReq) returns (errorResponse)
+
+	@handler startGeoContainer
+	post /start returns (errorResponse)
+
+	@handler delGeoContainer
+	get /del returns (errorResponse)
+
+	@handler createImageMosaicStore
+	post /createImageMosaicStore (createImageMosaicStoreReq) returns (errorResponse)
+
+	@handler createImageMosaicByZip
+	post /createImageMosaicByZip (createImageMosaicByZipReq) returns (errorResponse)
+
+	@handler createImageMosaicByZipV2
+	post /createImageMosaicByZipV2 (createImageMosaicByZipReqV2) returns (errorResponse)
+
+	@handler delImageMosaicStore
+	post /delImageMosaicStore (delImageMosaicStoreReq) returns (errorResponse)
+
+	@handler delImageMosaicStoreV2
+	post /delImageMosaicStoreV2 (delImageMosaicStoreReqV2) returns (errorResponse)
+
+	@handler delImageMosaic
+	post /delImageMosaic (delImageMosaicReq) returns (errorResponse)
+
+	@handler delImageMosaicV2
+	post /delImageMosaicV2 (delImageMosaicReqV2) returns (errorResponse)
+
+	@handler createImageMosaicByStore
+	post /createImageMosaicByStore (createImageMosaicByStoreReq) returns (errorResponse)
+
+	@handler createImageMosaicByStoreV2
+	post /createImageMosaicByStoreV2 (createImageMosaicByStoreReqV2) returns (errorResponse)
+}
+

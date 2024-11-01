@@ -1,0 +1,1094 @@
+{
+    "markOffset": 1,
+    "markLimit": 100,
+    "laneOffset": 1,
+    "laneLimit": 1
+}
+INFO: 2024/10/31 18:11:44 batchprocesslogic.go:60: 已经生成的中心线 数量： 1
+INFO: 2024/10/31 18:11:44 batchprocesslogic.go:94: 要处理的车道线线数量:  100
+INFO: 2024/10/31 18:11:44 batchprocesslogic.go:186: 同步批处理，生成centLines 38, Total time：11.7456ms
+INFO: 2024/10/31 18:11:44 batchprocesslogic.go:201: 同步批处理：存入数据库 centerLine counts: 38, totalTime costs 243.8404ms
+INFO: 2024/10/31 18:11:44 batchprocesslogic.go:206: 同步批处理：总时间 totalTime costs 256.1284ms
+INFO: 2024/10/31 18:11:44 batchprocesslogic.go:207: 
+INFO: 2024/10/31 18:11:44 batchprocesslogic.go:208: 
+INFO: 2024/10/31 18:11:44 batchprocesslogic.go:209: 
+INFO: 2024/10/31 18:11:46 batchprocesslogic.go:60: 已经生成的中心线 数量： 1
+INFO: 2024/10/31 18:11:46 batchprocesslogic.go:94: 要处理的车道线线数量:  100
+INFO: 2024/10/31 18:11:46 batchprocesslogic.go:186: 同步批处理，生成centLines 38, Total time：15.3997ms
+INFO: 2024/10/31 18:11:46 batchprocesslogic.go:201: 同步批处理：存入数据库 centerLine counts: 38, totalTime costs 131.4248ms
+INFO: 2024/10/31 18:11:46 batchprocesslogic.go:206: 同步批处理：总时间 totalTime costs 146.8245ms
+INFO: 2024/10/31 18:11:46 batchprocesslogic.go:207: 
+INFO: 2024/10/31 18:11:46 batchprocesslogic.go:208: 
+INFO: 2024/10/31 18:11:46 batchprocesslogic.go:209: 
+INFO: 2024/10/31 18:11:47 batchprocesslogic.go:60: 已经生成的中心线 数量： 1
+INFO: 2024/10/31 18:11:47 batchprocesslogic.go:94: 要处理的车道线线数量:  100
+INFO: 2024/10/31 18:11:47 batchprocesslogic.go:186: 同步批处理，生成centLines 38, Total time：13.6989ms
+INFO: 2024/10/31 18:11:47 batchprocesslogic.go:201: 同步批处理：存入数据库 centerLine counts: 38, totalTime costs 145.1135ms
+INFO: 2024/10/31 18:11:47 batchprocesslogic.go:206: 同步批处理：总时间 totalTime costs 159.8552ms
+INFO: 2024/10/31 18:11:47 batchprocesslogic.go:207: 
+INFO: 2024/10/31 18:11:47 batchprocesslogic.go:208: 
+INFO: 2024/10/31 18:11:47 batchprocesslogic.go:209: 
+INFO: 2024/10/31 18:11:48 batchprocesslogic.go:60: 已经生成的中心线 数量： 1
+INFO: 2024/10/31 18:11:48 batchprocesslogic.go:94: 要处理的车道线线数量:  100
+INFO: 2024/10/31 18:11:48 batchprocesslogic.go:186: 同步批处理，生成centLines 38, Total time：14.6372ms
+INFO: 2024/10/31 18:11:48 batchprocesslogic.go:201: 同步批处理：存入数据库 centerLine counts: 38, totalTime costs 265.2573ms
+INFO: 2024/10/31 18:11:48 batchprocesslogic.go:206: 同步批处理：总时间 totalTime costs 279.8945ms
+INFO: 2024/10/31 18:11:48 batchprocesslogic.go:207: 
+INFO: 2024/10/31 18:11:48 batchprocesslogic.go:208: 
+INFO: 2024/10/31 18:11:48 batchprocesslogic.go:209: 
+INFO: 2024/10/31 18:11:49 batchprocesslogic.go:60: 已经生成的中心线 数量： 1
+INFO: 2024/10/31 18:11:49 batchprocesslogic.go:94: 要处理的车道线线数量:  100
+INFO: 2024/10/31 18:11:49 batchprocesslogic.go:186: 同步批处理，生成centLines 38, Total time：13.2446ms
+INFO: 2024/10/31 18:11:50 batchprocesslogic.go:201: 同步批处理：存入数据库 centerLine counts: 38, totalTime costs 87.1727ms
+INFO: 2024/10/31 18:11:50 batchprocesslogic.go:206: 同步批处理：总时间 totalTime costs 101.4737ms
+INFO: 2024/10/31 18:11:50 batchprocesslogic.go:207: 
+INFO: 2024/10/31 18:11:50 batchprocesslogic.go:208: 
+INFO: 2024/10/31 18:11:50 batchprocesslogic.go:209: 
+INFO: 2024/10/31 18:11:51 batchprocesslogic.go:60: 已经生成的中心线 数量： 1
+INFO: 2024/10/31 18:11:51 batchprocesslogic.go:94: 要处理的车道线线数量:  100
+INFO: 2024/10/31 18:11:51 batchprocesslogic.go:186: 同步批处理，生成centLines 38, Total time：12.5009ms
+INFO: 2024/10/31 18:11:51 batchprocesslogic.go:201: 同步批处理：存入数据库 centerLine counts: 38, totalTime costs 29.166ms
+INFO: 2024/10/31 18:11:51 batchprocesslogic.go:206: 同步批处理：总时间 totalTime costs 41.6669ms
+INFO: 2024/10/31 18:11:51 batchprocesslogic.go:207: 
+INFO: 2024/10/31 18:11:51 batchprocesslogic.go:208: 
+INFO: 2024/10/31 18:11:51 batchprocesslogic.go:209: 
+INFO: 2024/10/31 18:11:53 batchprocesslogic.go:60: 已经生成的中心线 数量： 1
+INFO: 2024/10/31 18:11:53 batchprocesslogic.go:94: 要处理的车道线线数量:  100
+INFO: 2024/10/31 18:11:53 batchprocesslogic.go:186: 同步批处理，生成centLines 38, Total time：11.1655ms
+INFO: 2024/10/31 18:11:53 batchprocesslogic.go:201: 同步批处理：存入数据库 centerLine counts: 38, totalTime costs 29.2084ms
+INFO: 2024/10/31 18:11:53 batchprocesslogic.go:206: 同步批处理：总时间 totalTime costs 40.5248ms
+INFO: 2024/10/31 18:11:53 batchprocesslogic.go:207: 
+INFO: 2024/10/31 18:11:53 batchprocesslogic.go:208: 
+INFO: 2024/10/31 18:11:53 batchprocesslogic.go:209: 
+INFO: 2024/10/31 18:11:54 batchprocesslogic.go:60: 已经生成的中心线 数量： 1
+INFO: 2024/10/31 18:11:54 batchprocesslogic.go:94: 要处理的车道线线数量:  100
+INFO: 2024/10/31 18:11:54 batchprocesslogic.go:186: 同步批处理，生成centLines 38, Total time：10.8555ms
+INFO: 2024/10/31 18:11:54 batchprocesslogic.go:201: 同步批处理：存入数据库 centerLine counts: 38, totalTime costs 27.2501ms
+INFO: 2024/10/31 18:11:54 batchprocesslogic.go:206: 同步批处理：总时间 totalTime costs 38.1056ms
+INFO: 2024/10/31 18:11:54 batchprocesslogic.go:207: 
+INFO: 2024/10/31 18:11:54 batchprocesslogic.go:208: 
+INFO: 2024/10/31 18:11:54 batchprocesslogic.go:209: 
+INFO: 2024/10/31 18:11:55 batchprocesslogic.go:60: 已经生成的中心线 数量： 1
+INFO: 2024/10/31 18:11:55 batchprocesslogic.go:94: 要处理的车道线线数量:  100
+INFO: 2024/10/31 18:11:55 batchprocesslogic.go:186: 同步批处理，生成centLines 38, Total time：12.4199ms
+INFO: 2024/10/31 18:11:55 batchprocesslogic.go:201: 同步批处理：存入数据库 centerLine counts: 38, totalTime costs 25.0035ms
+INFO: 2024/10/31 18:11:55 batchprocesslogic.go:206: 同步批处理：总时间 totalTime costs 38.9583ms
+INFO: 2024/10/31 18:11:55 batchprocesslogic.go:207: 
+INFO: 2024/10/31 18:11:55 batchprocesslogic.go:208: 
+INFO: 2024/10/31 18:11:55 batchprocesslogic.go:209: 
+
+
+{
+    "markOffset": 1,
+    "markLimit": 100,
+    "laneOffset": 1,
+    "laneLimit": 100
+}INFO: 2024/10/31 18:13:42 batchprocesslogic.go:60: 已经生成的中心线 数量： 100
+INFO: 2024/10/31 18:13:42 batchprocesslogic.go:94: 要处理的车道线线数量:  100
+INFO: 2024/10/31 18:13:43 batchprocesslogic.go:186: 同步批处理，生成centLines 38, Total time：510.9935ms
+INFO: 2024/10/31 18:13:43 batchprocesslogic.go:201: 同步批处理：存入数据库 centerLine counts: 38, totalTime costs 611.5666ms
+INFO: 2024/10/31 18:13:43 batchprocesslogic.go:206: 同步批处理：总时间 totalTime costs 1.1225601s
+INFO: 2024/10/31 18:13:43 batchprocesslogic.go:207: 
+INFO: 2024/10/31 18:13:43 batchprocesslogic.go:208: 
+INFO: 2024/10/31 18:13:43 batchprocesslogic.go:209: 
+INFO: 2024/10/31 18:13:58 batchprocesslogic.go:60: 已经生成的中心线 数量： 100
+INFO: 2024/10/31 18:13:58 batchprocesslogic.go:94: 要处理的车道线线数量:  100
+INFO: 2024/10/31 18:13:59 batchprocesslogic.go:186: 同步批处理，生成centLines 38, Total time：567.3409ms
+INFO: 2024/10/31 18:13:59 batchprocesslogic.go:201: 同步批处理：存入数据库 centerLine counts: 38, totalTime costs 31.4351ms
+INFO: 2024/10/31 18:13:59 batchprocesslogic.go:206: 同步批处理：总时间 totalTime costs 598.776ms
+INFO: 2024/10/31 18:13:59 batchprocesslogic.go:207: 
+INFO: 2024/10/31 18:13:59 batchprocesslogic.go:208: 
+INFO: 2024/10/31 18:13:59 batchprocesslogic.go:209: 
+INFO: 2024/10/31 18:14:01 batchprocesslogic.go:60: 已经生成的中心线 数量： 100
+INFO: 2024/10/31 18:14:01 batchprocesslogic.go:94: 要处理的车道线线数量:  100
+INFO: 2024/10/31 18:14:01 batchprocesslogic.go:186: 同步批处理，生成centLines 38, Total time：457.2841ms
+INFO: 2024/10/31 18:14:01 batchprocesslogic.go:201: 同步批处理：存入数据库 centerLine counts: 38, totalTime costs 47.7094ms
+INFO: 2024/10/31 18:14:01 batchprocesslogic.go:206: 同步批处理：总时间 totalTime costs 504.9935ms
+INFO: 2024/10/31 18:14:01 batchprocesslogic.go:207: 
+INFO: 2024/10/31 18:14:01 batchprocesslogic.go:208: 
+INFO: 2024/10/31 18:14:01 batchprocesslogic.go:209: 
+INFO: 2024/10/31 18:14:04 batchprocesslogic.go:60: 已经生成的中心线 数量： 100
+INFO: 2024/10/31 18:14:04 batchprocesslogic.go:94: 要处理的车道线线数量:  100
+INFO: 2024/10/31 18:14:04 batchprocesslogic.go:186: 同步批处理，生成centLines 38, Total time：469.0778ms
+INFO: 2024/10/31 18:14:04 batchprocesslogic.go:201: 同步批处理：存入数据库 centerLine counts: 38, totalTime costs 269.8033ms
+INFO: 2024/10/31 18:14:04 batchprocesslogic.go:206: 同步批处理：总时间 totalTime costs 740.9808ms
+INFO: 2024/10/31 18:14:04 batchprocesslogic.go:207: 
+INFO: 2024/10/31 18:14:04 batchprocesslogic.go:208: 
+INFO: 2024/10/31 18:14:04 batchprocesslogic.go:209: 
+INFO: 2024/10/31 18:14:06 batchprocesslogic.go:60: 已经生成的中心线 数量： 100
+INFO: 2024/10/31 18:14:06 batchprocesslogic.go:94: 要处理的车道线线数量:  100
+INFO: 2024/10/31 18:14:07 batchprocesslogic.go:186: 同步批处理，生成centLines 38, Total time：456.5894ms
+INFO: 2024/10/31 18:14:07 batchprocesslogic.go:201: 同步批处理：存入数据库 centerLine counts: 38, totalTime costs 99.7172ms
+INFO: 2024/10/31 18:14:07 batchprocesslogic.go:206: 同步批处理：总时间 totalTime costs 556.3066ms
+INFO: 2024/10/31 18:14:07 batchprocesslogic.go:207: 
+INFO: 2024/10/31 18:14:07 batchprocesslogic.go:208: 
+INFO: 2024/10/31 18:14:07 batchprocesslogic.go:209: 
+INFO: 2024/10/31 18:14:09 batchprocesslogic.go:60: 已经生成的中心线 数量： 100
+INFO: 2024/10/31 18:14:09 batchprocesslogic.go:94: 要处理的车道线线数量:  100
+INFO: 2024/10/31 18:14:10 batchprocesslogic.go:186: 同步批处理，生成centLines 38, Total time：457.6179ms
+INFO: 2024/10/31 18:14:10 batchprocesslogic.go:201: 同步批处理：存入数据库 centerLine counts: 38, totalTime costs 30.1506ms
+INFO: 2024/10/31 18:14:10 batchprocesslogic.go:206: 同步批处理：总时间 totalTime costs 487.7685ms
+INFO: 2024/10/31 18:14:10 batchprocesslogic.go:207: 
+INFO: 2024/10/31 18:14:10 batchprocesslogic.go:208: 
+INFO: 2024/10/31 18:14:10 batchprocesslogic.go:209: 
+INFO: 2024/10/31 18:14:12 batchprocesslogic.go:60: 已经生成的中心线 数量： 100
+INFO: 2024/10/31 18:14:12 batchprocesslogic.go:94: 要处理的车道线线数量:  100
+INFO: 2024/10/31 18:14:12 batchprocesslogic.go:186: 同步批处理，生成centLines 38, Total time：458.4159ms
+INFO: 2024/10/31 18:14:12 batchprocesslogic.go:201: 同步批处理：存入数据库 centerLine counts: 38, totalTime costs 71.1973ms
+INFO: 2024/10/31 18:14:12 batchprocesslogic.go:206: 同步批处理：总时间 totalTime costs 530.6551ms
+INFO: 2024/10/31 18:14:12 batchprocesslogic.go:207: 
+INFO: 2024/10/31 18:14:12 batchprocesslogic.go:208: 
+INFO: 2024/10/31 18:14:12 batchprocesslogic.go:209: 
+INFO: 2024/10/31 18:14:15 batchprocesslogic.go:60: 已经生成的中心线 数量： 100
+INFO: 2024/10/31 18:14:15 batchprocesslogic.go:94: 要处理的车道线线数量:  100
+INFO: 2024/10/31 18:14:15 batchprocesslogic.go:186: 同步批处理，生成centLines 38, Total time：512.5242ms
+INFO: 2024/10/31 18:14:15 batchprocesslogic.go:201: 同步批处理：存入数据库 centerLine counts: 38, totalTime costs 21.6731ms
+INFO: 2024/10/31 18:14:15 batchprocesslogic.go:206: 同步批处理：总时间 totalTime costs 534.1973ms
+INFO: 2024/10/31 18:14:15 batchprocesslogic.go:207: 
+INFO: 2024/10/31 18:14:15 batchprocesslogic.go:208: 
+INFO: 2024/10/31 18:14:15 batchprocesslogic.go:209: 
+INFO: 2024/10/31 18:14:17 batchprocesslogic.go:60: 已经生成的中心线 数量： 100
+INFO: 2024/10/31 18:14:17 batchprocesslogic.go:94: 要处理的车道线线数量:  100
+INFO: 2024/10/31 18:14:18 batchprocesslogic.go:186: 同步批处理，生成centLines 38, Total time：453.7901ms
+INFO: 2024/10/31 18:14:18 batchprocesslogic.go:201: 同步批处理：存入数据库 centerLine counts: 38, totalTime costs 128.4082ms
+INFO: 2024/10/31 18:14:18 batchprocesslogic.go:206: 同步批处理：总时间 totalTime costs 582.1983ms
+INFO: 2024/10/31 18:14:18 batchprocesslogic.go:207: 
+INFO: 2024/10/31 18:14:18 batchprocesslogic.go:208: 
+INFO: 2024/10/31 18:14:18 batchprocesslogic.go:209: 
+INFO: 2024/10/31 18:14:20 batchprocesslogic.go:60: 已经生成的中心线 数量： 100
+INFO: 2024/10/31 18:14:20 batchprocesslogic.go:94: 要处理的车道线线数量:  100
+INFO: 2024/10/31 18:14:20 batchprocesslogic.go:186: 同步批处理，生成centLines 38, Total time：508.2738ms
+INFO: 2024/10/31 18:14:21 batchprocesslogic.go:201: 同步批处理：存入数据库 centerLine counts: 38, totalTime costs 78.4915ms
+INFO: 2024/10/31 18:14:21 batchprocesslogic.go:206: 同步批处理：总时间 totalTime costs 586.7653ms
+INFO: 2024/10/31 18:14:21 batchprocesslogic.go:207: 
+INFO: 2024/10/31 18:14:21 batchprocesslogic.go:208: 
+INFO: 2024/10/31 18:14:21 batchprocesslogic.go:209: 
+INFO: 2024/10/31 18:14:23 batchprocesslogic.go:60: 已经生成的中心线 数量： 100
+INFO: 2024/10/31 18:14:23 batchprocesslogic.go:94: 要处理的车道线线数量:  100
+INFO: 2024/10/31 18:14:23 batchprocesslogic.go:186: 同步批处理，生成centLines 38, Total time：440.1751ms
+INFO: 2024/10/31 18:14:23 batchprocesslogic.go:201: 同步批处理：存入数据库 centerLine counts: 38, totalTime costs 98.0263ms
+INFO: 2024/10/31 18:14:23 batchprocesslogic.go:206: 同步批处理：总时间 totalTime costs 538.7362ms
+INFO: 2024/10/31 18:14:23 batchprocesslogic.go:207: 
+INFO: 2024/10/31 18:14:23 batchprocesslogic.go:208: 
+INFO: 2024/10/31 18:14:23 batchprocesslogic.go:209: 
+INFO: 2024/10/31 18:14:43 batchprocesslogic.go:60: 已经生成的中心线 数量： 100
+INFO: 2024/10/31 18:14:43 batchprocesslogic.go:94: 要处理的车道线线数量:  100
+INFO: 2024/10/31 18:14:44 batchprocesslogic.go:186: 同步批处理，生成centLines 38, Total time：511.0097ms
+INFO: 2024/10/31 18:14:44 batchprocesslogic.go:201: 同步批处理：存入数据库 centerLine counts: 38, totalTime costs 234.6247ms
+INFO: 2024/10/31 18:14:44 batchprocesslogic.go:206: 同步批处理：总时间 totalTime costs 746.1468ms
+INFO: 2024/10/31 18:14:44 batchprocesslogic.go:207: 
+INFO: 2024/10/31 18:14:44 batchprocesslogic.go:208: 
+INFO: 2024/10/31 18:14:44 batchprocesslogic.go:209: 
+INFO: 2024/10/31 18:14:45 batchprocesslogic.go:60: 已经生成的中心线 数量： 100
+INFO: 2024/10/31 18:14:45 batchprocesslogic.go:94: 要处理的车道线线数量:  100
+INFO: 2024/10/31 18:14:46 batchprocesslogic.go:186: 同步批处理，生成centLines 38, Total time：474.7016ms
+INFO: 2024/10/31 18:14:46 batchprocesslogic.go:201: 同步批处理：存入数据库 centerLine counts: 38, totalTime costs 20.5151ms
+INFO: 2024/10/31 18:14:46 batchprocesslogic.go:206: 同步批处理：总时间 totalTime costs 495.7566ms
+INFO: 2024/10/31 18:14:46 batchprocesslogic.go:207: 
+INFO: 2024/10/31 18:14:46 batchprocesslogic.go:208: 
+INFO: 2024/10/31 18:14:46 batchprocesslogic.go:209: 
+INFO: 2024/10/31 18:14:47 batchprocesslogic.go:60: 已经生成的中心线 数量： 100
+INFO: 2024/10/31 18:14:47 batchprocesslogic.go:94: 要处理的车道线线数量:  100
+INFO: 2024/10/31 18:14:47 batchprocesslogic.go:186: 同步批处理，生成centLines 38, Total time：459.0849ms
+INFO: 2024/10/31 18:14:48 batchprocesslogic.go:201: 同步批处理：存入数据库 centerLine counts: 38, totalTime costs 32.7971ms
+INFO: 2024/10/31 18:14:48 batchprocesslogic.go:206: 同步批处理：总时间 totalTime costs 491.882ms
+INFO: 2024/10/31 18:14:48 batchprocesslogic.go:207: 
+INFO: 2024/10/31 18:14:48 batchprocesslogic.go:208: 
+INFO: 2024/10/31 18:14:48 batchprocesslogic.go:209: 
+INFO: 2024/10/31 18:14:49 batchprocesslogic.go:60: 已经生成的中心线 数量： 100
+INFO: 2024/10/31 18:14:49 batchprocesslogic.go:94: 要处理的车道线线数量:  100
+INFO: 2024/10/31 18:14:49 batchprocesslogic.go:186: 同步批处理，生成centLines 38, Total time：448.8469ms
+INFO: 2024/10/31 18:14:49 batchprocesslogic.go:201: 同步批处理：存入数据库 centerLine counts: 38, totalTime costs 33.624ms
+INFO: 2024/10/31 18:14:49 batchprocesslogic.go:206: 同步批处理：总时间 totalTime costs 482.4709ms
+INFO: 2024/10/31 18:14:49 batchprocesslogic.go:207: 
+INFO: 2024/10/31 18:14:49 batchprocesslogic.go:208: 
+INFO: 2024/10/31 18:14:49 batchprocesslogic.go:209: 
+INFO: 2024/10/31 18:14:50 batchprocesslogic.go:60: 已经生成的中心线 数量： 100
+INFO: 2024/10/31 18:14:50 batchprocesslogic.go:94: 要处理的车道线线数量:  100
+INFO: 2024/10/31 18:14:51 batchprocesslogic.go:186: 同步批处理，生成centLines 38, Total time：507.9652ms
+INFO: 2024/10/31 18:14:51 batchprocesslogic.go:201: 同步批处理：存入数据库 centerLine counts: 38, totalTime costs 27.2725ms
+INFO: 2024/10/31 18:14:51 batchprocesslogic.go:206: 同步批处理：总时间 totalTime costs 536.2384ms
+INFO: 2024/10/31 18:14:51 batchprocesslogic.go:207: 
+INFO: 2024/10/31 18:14:51 batchprocesslogic.go:208: 
+INFO: 2024/10/31 18:14:51 batchprocesslogic.go:209: 
+
+
+{
+    "markOffset": 1,
+    "markLimit": 200,
+    "laneOffset": 1,
+    "laneLimit": 100
+}INFO: 2024/10/31 18:17:07 batchprocesslogic.go:60: 已经生成的中心线 数量： 100
+INFO: 2024/10/31 18:17:07 batchprocesslogic.go:94: 要处理的车道线线数量:  200
+INFO: 2024/10/31 18:17:08 batchprocesslogic.go:186: 同步批处理，生成centLines 68, Total time：910.0167ms
+INFO: 2024/10/31 18:17:08 batchprocesslogic.go:201: 同步批处理：存入数据库 centerLine counts: 68, totalTime costs 261.3004ms
+INFO: 2024/10/31 18:17:08 batchprocesslogic.go:206: 同步批处理：总时间 totalTime costs 1.1713171s
+INFO: 2024/10/31 18:17:08 batchprocesslogic.go:207: 
+INFO: 2024/10/31 18:17:08 batchprocesslogic.go:208: 
+INFO: 2024/10/31 18:17:08 batchprocesslogic.go:209: 
+INFO: 2024/10/31 18:17:09 batchprocesslogic.go:60: 已经生成的中心线 数量： 100
+INFO: 2024/10/31 18:17:09 batchprocesslogic.go:94: 要处理的车道线线数量:  200
+INFO: 2024/10/31 18:17:10 batchprocesslogic.go:186: 同步批处理，生成centLines 68, Total time：897.7408ms
+INFO: 2024/10/31 18:17:10 batchprocesslogic.go:201: 同步批处理：存入数据库 centerLine counts: 68, totalTime costs 47.606ms
+INFO: 2024/10/31 18:17:10 batchprocesslogic.go:206: 同步批处理：总时间 totalTime costs 945.3468ms
+INFO: 2024/10/31 18:17:10 batchprocesslogic.go:207: 
+INFO: 2024/10/31 18:17:10 batchprocesslogic.go:208: 
+INFO: 2024/10/31 18:17:10 batchprocesslogic.go:209: 
+INFO: 2024/10/31 18:17:11 batchprocesslogic.go:60: 已经生成的中心线 数量： 100
+INFO: 2024/10/31 18:17:11 batchprocesslogic.go:94: 要处理的车道线线数量:  200
+INFO: 2024/10/31 18:17:12 batchprocesslogic.go:186: 同步批处理，生成centLines 68, Total time：937.9314ms
+INFO: 2024/10/31 18:17:12 batchprocesslogic.go:201: 同步批处理：存入数据库 centerLine counts: 68, totalTime costs 46.308ms
+INFO: 2024/10/31 18:17:12 batchprocesslogic.go:206: 同步批处理：总时间 totalTime costs 984.2394ms
+INFO: 2024/10/31 18:17:12 batchprocesslogic.go:207: 
+INFO: 2024/10/31 18:17:12 batchprocesslogic.go:208: 
+INFO: 2024/10/31 18:17:12 batchprocesslogic.go:209: 
+INFO: 2024/10/31 18:17:14 batchprocesslogic.go:60: 已经生成的中心线 数量： 100
+INFO: 2024/10/31 18:17:14 batchprocesslogic.go:94: 要处理的车道线线数量:  200
+INFO: 2024/10/31 18:17:14 batchprocesslogic.go:186: 同步批处理，生成centLines 68, Total time：875.6021ms
+INFO: 2024/10/31 18:17:14 batchprocesslogic.go:201: 同步批处理：存入数据库 centerLine counts: 68, totalTime costs 54.5835ms
+INFO: 2024/10/31 18:17:14 batchprocesslogic.go:206: 同步批处理：总时间 totalTime costs 930.1856ms
+INFO: 2024/10/31 18:17:14 batchprocesslogic.go:207: 
+INFO: 2024/10/31 18:17:14 batchprocesslogic.go:208: 
+INFO: 2024/10/31 18:17:14 batchprocesslogic.go:209: 
+INFO: 2024/10/31 18:17:16 batchprocesslogic.go:60: 已经生成的中心线 数量： 100
+INFO: 2024/10/31 18:17:16 batchprocesslogic.go:94: 要处理的车道线线数量:  200
+INFO: 2024/10/31 18:17:16 batchprocesslogic.go:186: 同步批处理，生成centLines 68, Total time：857.0398ms
+INFO: 2024/10/31 18:17:16 batchprocesslogic.go:201: 同步批处理：存入数据库 centerLine counts: 68, totalTime costs 47.4743ms
+INFO: 2024/10/31 18:17:16 batchprocesslogic.go:206: 同步批处理：总时间 totalTime costs 904.5141ms
+INFO: 2024/10/31 18:17:16 batchprocesslogic.go:207: 
+INFO: 2024/10/31 18:17:16 batchprocesslogic.go:208: 
+INFO: 2024/10/31 18:17:16 batchprocesslogic.go:209: 
+INFO: 2024/10/31 18:17:18 batchprocesslogic.go:60: 已经生成的中心线 数量： 100
+INFO: 2024/10/31 18:17:18 batchprocesslogic.go:94: 要处理的车道线线数量:  200
+INFO: 2024/10/31 18:17:19 batchprocesslogic.go:186: 同步批处理，生成centLines 68, Total time：921.2407ms
+INFO: 2024/10/31 18:17:19 batchprocesslogic.go:201: 同步批处理：存入数据库 centerLine counts: 68, totalTime costs 50.2425ms
+INFO: 2024/10/31 18:17:19 batchprocesslogic.go:206: 同步批处理：总时间 totalTime costs 971.5497ms
+INFO: 2024/10/31 18:17:19 batchprocesslogic.go:207: 
+INFO: 2024/10/31 18:17:19 batchprocesslogic.go:208: 
+INFO: 2024/10/31 18:17:19 batchprocesslogic.go:209: 
+INFO: 2024/10/31 18:17:20 batchprocesslogic.go:60: 已经生成的中心线 数量： 100
+INFO: 2024/10/31 18:17:20 batchprocesslogic.go:94: 要处理的车道线线数量:  200
+INFO: 2024/10/31 18:17:21 batchprocesslogic.go:186: 同步批处理，生成centLines 68, Total time：940.6377ms
+INFO: 2024/10/31 18:17:21 batchprocesslogic.go:201: 同步批处理：存入数据库 centerLine counts: 68, totalTime costs 71.3995ms
+INFO: 2024/10/31 18:17:21 batchprocesslogic.go:206: 同步批处理：总时间 totalTime costs 1.0120372s
+INFO: 2024/10/31 18:17:21 batchprocesslogic.go:207: 
+INFO: 2024/10/31 18:17:21 batchprocesslogic.go:208: 
+INFO: 2024/10/31 18:17:21 batchprocesslogic.go:209: 
+INFO: 2024/10/31 18:17:22 batchprocesslogic.go:60: 已经生成的中心线 数量： 100
+INFO: 2024/10/31 18:17:22 batchprocesslogic.go:94: 要处理的车道线线数量:  200
+INFO: 2024/10/31 18:17:23 batchprocesslogic.go:186: 同步批处理，生成centLines 68, Total time：869.6482ms
+INFO: 2024/10/31 18:17:23 batchprocesslogic.go:201: 同步批处理：存入数据库 centerLine counts: 68, totalTime costs 47.2716ms
+INFO: 2024/10/31 18:17:23 batchprocesslogic.go:206: 同步批处理：总时间 totalTime costs 916.9198ms
+INFO: 2024/10/31 18:17:23 batchprocesslogic.go:207: 
+INFO: 2024/10/31 18:17:23 batchprocesslogic.go:208: 
+INFO: 2024/10/31 18:17:23 batchprocesslogic.go:209: 
+INFO: 2024/10/31 18:17:24 batchprocesslogic.go:60: 已经生成的中心线 数量： 100
+INFO: 2024/10/31 18:17:24 batchprocesslogic.go:94: 要处理的车道线线数量:  200
+INFO: 2024/10/31 18:17:25 batchprocesslogic.go:186: 同步批处理，生成centLines 68, Total time：859.9623ms
+INFO: 2024/10/31 18:17:25 batchprocesslogic.go:201: 同步批处理：存入数据库 centerLine counts: 68, totalTime costs 47.8033ms
+INFO: 2024/10/31 18:17:25 batchprocesslogic.go:206: 同步批处理：总时间 totalTime costs 908.769ms
+INFO: 2024/10/31 18:17:25 batchprocesslogic.go:207: 
+INFO: 2024/10/31 18:17:25 batchprocesslogic.go:208: 
+INFO: 2024/10/31 18:17:25 batchprocesslogic.go:209: 
+INFO: 2024/10/31 18:17:26 batchprocesslogic.go:60: 已经生成的中心线 数量： 100
+INFO: 2024/10/31 18:17:26 batchprocesslogic.go:94: 要处理的车道线线数量:  200
+INFO: 2024/10/31 18:17:27 batchprocesslogic.go:186: 同步批处理，生成centLines 68, Total time：946.5958ms
+INFO: 2024/10/31 18:17:27 batchprocesslogic.go:201: 同步批处理：存入数据库 centerLine counts: 68, totalTime costs 59.0044ms
+INFO: 2024/10/31 18:17:27 batchprocesslogic.go:206: 同步批处理：总时间 totalTime costs 1.0069634s
+INFO: 2024/10/31 18:17:27 batchprocesslogic.go:207: 
+INFO: 2024/10/31 18:17:27 batchprocesslogic.go:208: 
+INFO: 2024/10/31 18:17:27 batchprocesslogic.go:209:
+
+
+{
+    "markOffset": 1,
+    "markLimit": 200,
+    "laneOffset": 1,
+    "laneLimit": 200
+}
+
+INFO: 2024/10/31 18:36:46 batchprocesslogic.go:60: 已经生成的中心线 数量： 200
+INFO: 2024/10/31 18:36:46 batchprocesslogic.go:94: 要处理的车道线线数量:  200
+INFO: 2024/10/31 18:36:50 batchprocesslogic.go:60: 已经生成的中心线 数量： 200
+INFO: 2024/10/31 18:36:50 batchprocesslogic.go:94: 要处理的车道线线数量:  200
+INFO: 2024/10/31 18:36:51 batchprocesslogic.go:186: 同步批处理，生成centLines 86, Total time：4.6953704s
+INFO: 2024/10/31 18:36:51 batchprocesslogic.go:201: 同步批处理：存入数据库 centerLine counts: 86, totalTime costs 495.813ms
+INFO: 2024/10/31 18:36:51 batchprocesslogic.go:206: 同步批处理：总时间 totalTime costs 5.1921837s
+INFO: 2024/10/31 18:36:51 batchprocesslogic.go:207: 
+INFO: 2024/10/31 18:36:51 batchprocesslogic.go:208: 
+INFO: 2024/10/31 18:36:51 batchprocesslogic.go:209: 
+INFO: 2024/10/31 18:36:54 batchprocesslogic.go:60: 已经生成的中心线 数量： 200
+INFO: 2024/10/31 18:36:54 batchprocesslogic.go:94: 要处理的车道线线数量:  200
+INFO: 2024/10/31 18:36:55 batchprocesslogic.go:186: 同步批处理，生成centLines 86, Total time：5.1190609s
+INFO: 2024/10/31 18:36:55 batchprocesslogic.go:201: 同步批处理：存入数据库 centerLine counts: 86, totalTime costs 128.9658ms
+INFO: 2024/10/31 18:36:55 batchprocesslogic.go:206: 同步批处理：总时间 totalTime costs 5.2490289s
+INFO: 2024/10/31 18:36:55 batchprocesslogic.go:207: 
+INFO: 2024/10/31 18:36:55 batchprocesslogic.go:208: 
+INFO: 2024/10/31 18:36:55 batchprocesslogic.go:209: 
+INFO: 2024/10/31 18:36:58 batchprocesslogic.go:60: 已经生成的中心线 数量： 200
+INFO: 2024/10/31 18:36:58 batchprocesslogic.go:94: 要处理的车道线线数量:  200
+INFO: 2024/10/31 18:37:00 batchprocesslogic.go:186: 同步批处理，生成centLines 86, Total time：5.4405146s
+INFO: 2024/10/31 18:37:00 batchprocesslogic.go:201: 同步批处理：存入数据库 centerLine counts: 86, totalTime costs 104.3038ms
+INFO: 2024/10/31 18:37:00 batchprocesslogic.go:206: 同步批处理：总时间 totalTime costs 5.5448184s
+INFO: 2024/10/31 18:37:00 batchprocesslogic.go:207: 
+INFO: 2024/10/31 18:37:00 batchprocesslogic.go:208: 
+INFO: 2024/10/31 18:37:00 batchprocesslogic.go:209: 
+INFO: 2024/10/31 18:37:02 batchprocesslogic.go:60: 已经生成的中心线 数量： 200
+INFO: 2024/10/31 18:37:02 batchprocesslogic.go:94: 要处理的车道线线数量:  200
+INFO: 2024/10/31 18:37:03 batchprocesslogic.go:186: 同步批处理，生成centLines 86, Total time：5.0178647s
+INFO: 2024/10/31 18:37:03 batchprocesslogic.go:201: 同步批处理：存入数据库 centerLine counts: 86, totalTime costs 102.5807ms
+INFO: 2024/10/31 18:37:03 batchprocesslogic.go:206: 同步批处理：总时间 totalTime costs 5.1214454s
+INFO: 2024/10/31 18:37:03 batchprocesslogic.go:207: 
+INFO: 2024/10/31 18:37:03 batchprocesslogic.go:208: 
+INFO: 2024/10/31 18:37:03 batchprocesslogic.go:209: 
+INFO: 2024/10/31 18:37:07 batchprocesslogic.go:60: 已经生成的中心线 数量： 200
+INFO: 2024/10/31 18:37:07 batchprocesslogic.go:94: 要处理的车道线线数量:  200
+INFO: 2024/10/31 18:37:08 batchprocesslogic.go:186: 同步批处理，生成centLines 86, Total time：5.3247681s
+INFO: 2024/10/31 18:37:08 batchprocesslogic.go:201: 同步批处理：存入数据库 centerLine counts: 86, totalTime costs 96.3351ms
+INFO: 2024/10/31 18:37:08 batchprocesslogic.go:206: 同步批处理：总时间 totalTime costs 5.4216113s
+INFO: 2024/10/31 18:37:08 batchprocesslogic.go:207: 
+INFO: 2024/10/31 18:37:08 batchprocesslogic.go:208: 
+INFO: 2024/10/31 18:37:08 batchprocesslogic.go:209: 
+INFO: 2024/10/31 18:37:11 batchprocesslogic.go:60: 已经生成的中心线 数量： 200
+INFO: 2024/10/31 18:37:11 batchprocesslogic.go:94: 要处理的车道线线数量:  200
+INFO: 2024/10/31 18:37:11 batchprocesslogic.go:186: 同步批处理，生成centLines 86, Total time：4.6104463s
+INFO: 2024/10/31 18:37:11 batchprocesslogic.go:201: 同步批处理：存入数据库 centerLine counts: 86, totalTime costs 75.6708ms
+INFO: 2024/10/31 18:37:11 batchprocesslogic.go:206: 同步批处理：总时间 totalTime costs 4.6861171s
+INFO: 2024/10/31 18:37:11 batchprocesslogic.go:207: 
+INFO: 2024/10/31 18:37:11 batchprocesslogic.go:208: 
+INFO: 2024/10/31 18:37:11 batchprocesslogic.go:209: 
+INFO: 2024/10/31 18:37:15 batchprocesslogic.go:60: 已经生成的中心线 数量： 200
+INFO: 2024/10/31 18:37:15 batchprocesslogic.go:94: 要处理的车道线线数量:  200
+INFO: 2024/10/31 18:37:15 batchprocesslogic.go:186: 同步批处理，生成centLines 86, Total time：4.4780739s
+INFO: 2024/10/31 18:37:15 batchprocesslogic.go:201: 同步批处理：存入数据库 centerLine counts: 86, totalTime costs 89.6165ms
+INFO: 2024/10/31 18:37:15 batchprocesslogic.go:206: 同步批处理：总时间 totalTime costs 4.5676904s
+INFO: 2024/10/31 18:37:15 batchprocesslogic.go:207: 
+INFO: 2024/10/31 18:37:15 batchprocesslogic.go:208: 
+INFO: 2024/10/31 18:37:15 batchprocesslogic.go:209: 
+INFO: 2024/10/31 18:37:19 batchprocesslogic.go:60: 已经生成的中心线 数量： 200
+INFO: 2024/10/31 18:37:19 batchprocesslogic.go:94: 要处理的车道线线数量:  200
+INFO: 2024/10/31 18:37:20 batchprocesslogic.go:186: 同步批处理，生成centLines 86, Total time：4.8876166s
+INFO: 2024/10/31 18:37:20 batchprocesslogic.go:201: 同步批处理：存入数据库 centerLine counts: 86, totalTime costs 120.4777ms
+INFO: 2024/10/31 18:37:20 batchprocesslogic.go:206: 同步批处理：总时间 totalTime costs 5.0080943s
+INFO: 2024/10/31 18:37:20 batchprocesslogic.go:207: 
+INFO: 2024/10/31 18:37:20 batchprocesslogic.go:208: 
+INFO: 2024/10/31 18:37:20 batchprocesslogic.go:209: 
+INFO: 2024/10/31 18:37:23 batchprocesslogic.go:60: 已经生成的中心线 数量： 200
+INFO: 2024/10/31 18:37:23 batchprocesslogic.go:94: 要处理的车道线线数量:  200
+INFO: 2024/10/31 18:37:24 batchprocesslogic.go:186: 同步批处理，生成centLines 86, Total time：4.6931435s
+INFO: 2024/10/31 18:37:24 batchprocesslogic.go:201: 同步批处理：存入数据库 centerLine counts: 86, totalTime costs 641.7844ms
+INFO: 2024/10/31 18:37:24 batchprocesslogic.go:206: 同步批处理：总时间 totalTime costs 5.3349462s
+INFO: 2024/10/31 18:37:24 batchprocesslogic.go:207: 
+INFO: 2024/10/31 18:37:24 batchprocesslogic.go:208: 
+INFO: 2024/10/31 18:37:24 batchprocesslogic.go:209: 
+INFO: 2024/10/31 18:37:27 batchprocesslogic.go:186: 同步批处理，生成centLines 86, Total time：4.4496911s
+INFO: 2024/10/31 18:37:28 batchprocesslogic.go:201: 同步批处理：存入数据库 centerLine counts: 86, totalTime costs 242.8303ms
+INFO: 2024/10/31 18:37:28 batchprocesslogic.go:206: 同步批处理：总时间 totalTime costs 4.69357s
+INFO: 2024/10/31 18:37:28 batchprocesslogic.go:207: 
+INFO: 2024/10/31 18:37:28 batchprocesslogic.go:208: 
+INFO: 2024/10/31 18:37:28 batchprocesslogic.go:209: 
+
+
+
+{
+    "markOffset": 1,
+    "markLimit": 300,
+    "laneOffset": 1,
+    "laneLimit": 200
+}
+
+INFO: 2024/10/31 18:51:18 batchprocesslogic.go:60: 已经生成的中心线 数量： 200
+INFO: 2024/10/31 18:51:18 batchprocesslogic.go:94: 要处理的车道线线数量:  300
+INFO: 2024/10/31 18:51:22 batchprocesslogic.go:60: 已经生成的中心线 数量： 200
+INFO: 2024/10/31 18:51:22 batchprocesslogic.go:94: 要处理的车道线线数量:  300
+INFO: 2024/10/31 18:51:24 batchprocesslogic.go:186: 同步批处理，生成centLines 122, Total time：6.0017595s
+INFO: 2024/10/31 18:51:25 batchprocesslogic.go:201: 同步批处理：存入数据库 centerLine counts: 122, totalTime costs 390.305ms
+INFO: 2024/10/31 18:51:25 batchprocesslogic.go:206: 同步批处理：总时间 totalTime costs 6.3920645s
+INFO: 2024/10/31 18:51:25 batchprocesslogic.go:207: 
+INFO: 2024/10/31 18:51:25 batchprocesslogic.go:208: 
+INFO: 2024/10/31 18:51:25 batchprocesslogic.go:209: 
+INFO: 2024/10/31 18:51:27 batchprocesslogic.go:60: 已经生成的中心线 数量： 200
+INFO: 2024/10/31 18:51:27 batchprocesslogic.go:94: 要处理的车道线线数量:  300
+INFO: 2024/10/31 18:51:29 batchprocesslogic.go:186: 同步批处理，生成centLines 122, Total time：6.3320788s
+INFO: 2024/10/31 18:51:29 batchprocesslogic.go:201: 同步批处理：存入数据库 centerLine counts: 122, totalTime costs 256.4422ms
+INFO: 2024/10/31 18:51:29 batchprocesslogic.go:206: 同步批处理：总时间 totalTime costs 6.588521s
+INFO: 2024/10/31 18:51:29 batchprocesslogic.go:207: 
+INFO: 2024/10/31 18:51:29 batchprocesslogic.go:208: 
+INFO: 2024/10/31 18:51:29 batchprocesslogic.go:209: 
+INFO: 2024/10/31 18:51:31 batchprocesslogic.go:60: 已经生成的中心线 数量： 200
+INFO: 2024/10/31 18:51:31 batchprocesslogic.go:94: 要处理的车道线线数量:  300
+INFO: 2024/10/31 18:51:33 batchprocesslogic.go:186: 同步批处理，生成centLines 122, Total time：6.4913671s
+INFO: 2024/10/31 18:51:33 batchprocesslogic.go:201: 同步批处理：存入数据库 centerLine counts: 122, totalTime costs 217.2034ms
+INFO: 2024/10/31 18:51:33 batchprocesslogic.go:206: 同步批处理：总时间 totalTime costs 6.7085705s
+INFO: 2024/10/31 18:51:33 batchprocesslogic.go:207: 
+INFO: 2024/10/31 18:51:33 batchprocesslogic.go:208: 
+INFO: 2024/10/31 18:51:33 batchprocesslogic.go:209: 
+INFO: 2024/10/31 18:51:35 batchprocesslogic.go:60: 已经生成的中心线 数量： 200
+INFO: 2024/10/31 18:51:35 batchprocesslogic.go:94: 要处理的车道线线数量:  300
+INFO: 2024/10/31 18:51:38 batchprocesslogic.go:186: 同步批处理，生成centLines 122, Total time：7.1192135s
+INFO: 2024/10/31 18:51:38 batchprocesslogic.go:201: 同步批处理：存入数据库 centerLine counts: 122, totalTime costs 146.5738ms
+INFO: 2024/10/31 18:51:38 batchprocesslogic.go:206: 同步批处理：总时间 totalTime costs 7.2657873s
+INFO: 2024/10/31 18:51:38 batchprocesslogic.go:207: 
+INFO: 2024/10/31 18:51:38 batchprocesslogic.go:208: 
+INFO: 2024/10/31 18:51:38 batchprocesslogic.go:209: 
+INFO: 2024/10/31 18:51:39 batchprocesslogic.go:60: 已经生成的中心线 数量： 200
+INFO: 2024/10/31 18:51:39 batchprocesslogic.go:94: 要处理的车道线线数量:  300
+INFO: 2024/10/31 18:51:42 batchprocesslogic.go:186: 同步批处理，生成centLines 122, Total time：7.1920529s
+INFO: 2024/10/31 18:51:42 batchprocesslogic.go:201: 同步批处理：存入数据库 centerLine counts: 122, totalTime costs 206.4832ms
+INFO: 2024/10/31 18:51:42 batchprocesslogic.go:206: 同步批处理：总时间 totalTime costs 7.3985361s
+INFO: 2024/10/31 18:51:42 batchprocesslogic.go:207: 
+INFO: 2024/10/31 18:51:42 batchprocesslogic.go:208: 
+INFO: 2024/10/31 18:51:42 batchprocesslogic.go:209: 
+INFO: 2024/10/31 18:51:43 batchprocesslogic.go:60: 已经生成的中心线 数量： 200
+INFO: 2024/10/31 18:51:43 batchprocesslogic.go:94: 要处理的车道线线数量:  300
+INFO: 2024/10/31 18:51:46 batchprocesslogic.go:186: 同步批处理，生成centLines 122, Total time：6.9263714s
+INFO: 2024/10/31 18:51:46 batchprocesslogic.go:201: 同步批处理：存入数据库 centerLine counts: 122, totalTime costs 101.8091ms
+INFO: 2024/10/31 18:51:46 batchprocesslogic.go:206: 同步批处理：总时间 totalTime costs 7.0281805s
+INFO: 2024/10/31 18:51:46 batchprocesslogic.go:207: 
+INFO: 2024/10/31 18:51:46 batchprocesslogic.go:208: 
+INFO: 2024/10/31 18:51:46 batchprocesslogic.go:209: 
+INFO: 2024/10/31 18:51:47 batchprocesslogic.go:60: 已经生成的中心线 数量： 200
+INFO: 2024/10/31 18:51:47 batchprocesslogic.go:94: 要处理的车道线线数量:  300
+INFO: 2024/10/31 18:51:49 batchprocesslogic.go:186: 同步批处理，生成centLines 122, Total time：6.137112s
+INFO: 2024/10/31 18:51:50 batchprocesslogic.go:201: 同步批处理：存入数据库 centerLine counts: 122, totalTime costs 522.1367ms
+INFO: 2024/10/31 18:51:50 batchprocesslogic.go:206: 同步批处理：总时间 totalTime costs 6.6592837s
+INFO: 2024/10/31 18:51:50 batchprocesslogic.go:207: 
+INFO: 2024/10/31 18:51:50 batchprocesslogic.go:208: 
+INFO: 2024/10/31 18:51:50 batchprocesslogic.go:209: 
+INFO: 2024/10/31 18:51:51 batchprocesslogic.go:60: 已经生成的中心线 数量： 200
+INFO: 2024/10/31 18:51:51 batchprocesslogic.go:94: 要处理的车道线线数量:  300
+INFO: 2024/10/31 18:51:53 batchprocesslogic.go:186: 同步批处理，生成centLines 122, Total time：6.2599452s
+INFO: 2024/10/31 18:51:54 batchprocesslogic.go:201: 同步批处理：存入数据库 centerLine counts: 122, totalTime costs 96.4381ms
+INFO: 2024/10/31 18:51:54 batchprocesslogic.go:206: 同步批处理：总时间 totalTime costs 6.3563833s
+INFO: 2024/10/31 18:51:54 batchprocesslogic.go:207: 
+INFO: 2024/10/31 18:51:54 batchprocesslogic.go:208: 
+INFO: 2024/10/31 18:51:54 batchprocesslogic.go:209: 
+INFO: 2024/10/31 18:51:55 batchprocesslogic.go:60: 已经生成的中心线 数量： 200
+INFO: 2024/10/31 18:51:55 batchprocesslogic.go:94: 要处理的车道线线数量:  300
+INFO: 2024/10/31 18:51:57 batchprocesslogic.go:186: 同步批处理，生成centLines 122, Total time：6.089459s
+INFO: 2024/10/31 18:51:58 batchprocesslogic.go:201: 同步批处理：存入数据库 centerLine counts: 122, totalTime costs 176.6875ms
+INFO: 2024/10/31 18:51:58 batchprocesslogic.go:206: 同步批处理：总时间 totalTime costs 6.2671491s
+INFO: 2024/10/31 18:51:58 batchprocesslogic.go:207: 
+INFO: 2024/10/31 18:51:58 batchprocesslogic.go:208: 
+INFO: 2024/10/31 18:51:58 batchprocesslogic.go:209: 
+INFO: 2024/10/31 18:52:01 batchprocesslogic.go:186: 同步批处理，生成centLines 122, Total time：5.972462s
+INFO: 2024/10/31 18:52:02 batchprocesslogic.go:201: 同步批处理：存入数据库 centerLine counts: 122, totalTime costs 187.045ms
+INFO: 2024/10/31 18:52:02 batchprocesslogic.go:206: 同步批处理：总时间 totalTime costs 6.159507s
+INFO: 2024/10/31 18:52:02 batchprocesslogic.go:207: 
+INFO: 2024/10/31 18:52:02 batchprocesslogic.go:208: 
+INFO: 2024/10/31 18:52:02 batchprocesslogic.go:209: 
+
+
+{
+    "markOffset": 1,
+    "markLimit": 300,
+    "laneOffset": 1,
+    "laneLimit": 300
+}INFO: 2024/10/31 18:59:30 batchprocesslogic.go:60: 已经生成的中心线 数量： 300
+INFO: 2024/10/31 18:59:30 batchprocesslogic.go:94: 要处理的车道线线数量:  300
+INFO: 2024/10/31 18:59:34 batchprocesslogic.go:60: 已经生成的中心线 数量： 300
+INFO: 2024/10/31 18:59:34 batchprocesslogic.go:94: 要处理的车道线线数量:  300
+INFO: 2024/10/31 18:59:38 batchprocesslogic.go:60: 已经生成的中心线 数量： 300
+INFO: 2024/10/31 18:59:38 batchprocesslogic.go:94: 要处理的车道线线数量:  300
+INFO: 2024/10/31 18:59:42 batchprocesslogic.go:60: 已经生成的中心线 数量： 300
+INFO: 2024/10/31 18:59:42 batchprocesslogic.go:94: 要处理的车道线线数量:  300
+INFO: 2024/10/31 18:59:45 batchprocesslogic.go:186: 同步批处理，生成centLines 122, Total time：14.6572922s
+INFO: 2024/10/31 18:59:45 batchprocesslogic.go:201: 同步批处理：存入数据库 centerLine counts: 122, totalTime costs 676.3329ms
+INFO: 2024/10/31 18:59:45 batchprocesslogic.go:206: 同步批处理：总时间 totalTime costs 15.3336251s
+INFO: 2024/10/31 18:59:45 batchprocesslogic.go:207: 
+INFO: 2024/10/31 18:59:45 batchprocesslogic.go:208: 
+INFO: 2024/10/31 18:59:45 batchprocesslogic.go:209: 
+INFO: 2024/10/31 18:59:47 batchprocesslogic.go:60: 已经生成的中心线 数量： 300
+INFO: 2024/10/31 18:59:47 batchprocesslogic.go:94: 要处理的车道线线数量:  300
+INFO: 2024/10/31 18:59:50 batchprocesslogic.go:186: 同步批处理，生成centLines 122, Total time：15.6459664s
+INFO: 2024/10/31 18:59:50 batchprocesslogic.go:201: 同步批处理：存入数据库 centerLine counts: 122, totalTime costs 177.6519ms
+INFO: 2024/10/31 18:59:50 batchprocesslogic.go:206: 同步批处理：总时间 totalTime costs 15.8236183s
+INFO: 2024/10/31 18:59:50 batchprocesslogic.go:207: 
+INFO: 2024/10/31 18:59:50 batchprocesslogic.go:208: 
+INFO: 2024/10/31 18:59:50 batchprocesslogic.go:209: 
+INFO: 2024/10/31 18:59:51 batchprocesslogic.go:60: 已经生成的中心线 数量： 300
+INFO: 2024/10/31 18:59:51 batchprocesslogic.go:94: 要处理的车道线线数量:  300
+INFO: 2024/10/31 18:59:54 batchprocesslogic.go:186: 同步批处理，生成centLines 122, Total time：16.0778546s
+INFO: 2024/10/31 18:59:55 batchprocesslogic.go:201: 同步批处理：存入数据库 centerLine counts: 122, totalTime costs 185.4072ms
+INFO: 2024/10/31 18:59:55 batchprocesslogic.go:206: 同步批处理：总时间 totalTime costs 16.2632618s
+INFO: 2024/10/31 18:59:55 batchprocesslogic.go:207: 
+INFO: 2024/10/31 18:59:55 batchprocesslogic.go:208: 
+INFO: 2024/10/31 18:59:55 batchprocesslogic.go:209: 
+INFO: 2024/10/31 18:59:55 batchprocesslogic.go:60: 已经生成的中心线 数量： 300
+INFO: 2024/10/31 18:59:55 batchprocesslogic.go:94: 要处理的车道线线数量:  300
+INFO: 2024/10/31 18:59:59 batchprocesslogic.go:186: 同步批处理，生成centLines 122, Total time：16.4871206s
+INFO: 2024/10/31 18:59:59 batchprocesslogic.go:201: 同步批处理：存入数据库 centerLine counts: 122, totalTime costs 331.1399ms
+INFO: 2024/10/31 18:59:59 batchprocesslogic.go:206: 同步批处理：总时间 totalTime costs 16.8182605s
+INFO: 2024/10/31 18:59:59 batchprocesslogic.go:207: 
+INFO: 2024/10/31 18:59:59 batchprocesslogic.go:208: 
+INFO: 2024/10/31 18:59:59 batchprocesslogic.go:209: 
+INFO: 2024/10/31 18:59:59 batchprocesslogic.go:60: 已经生成的中心线 数量： 300
+INFO: 2024/10/31 18:59:59 batchprocesslogic.go:94: 要处理的车道线线数量:  300
+INFO: 2024/10/31 19:00:03 batchprocesslogic.go:186: 同步批处理，生成centLines 122, Total time：16.6939913s
+INFO: 2024/10/31 19:00:03 batchprocesslogic.go:60: 已经生成的中心线 数量： 300
+INFO: 2024/10/31 19:00:03 batchprocesslogic.go:94: 要处理的车道线线数量:  300
+INFO: 2024/10/31 19:00:04 batchprocesslogic.go:201: 同步批处理：存入数据库 centerLine counts: 122, totalTime costs 488.3034ms
+INFO: 2024/10/31 19:00:04 batchprocesslogic.go:206: 同步批处理：总时间 totalTime costs 17.1822947s
+INFO: 2024/10/31 19:00:04 batchprocesslogic.go:207: 
+INFO: 2024/10/31 19:00:04 batchprocesslogic.go:208: 
+INFO: 2024/10/31 19:00:04 batchprocesslogic.go:209: 
+INFO: 2024/10/31 19:00:08 batchprocesslogic.go:186: 同步批处理，生成centLines 122, Total time：16.8302087s
+INFO: 2024/10/31 19:00:08 batchprocesslogic.go:60: 已经生成的中心线 数量： 300
+INFO: 2024/10/31 19:00:08 batchprocesslogic.go:94: 要处理的车道线线数量:  300
+INFO: 2024/10/31 19:00:08 batchprocesslogic.go:201: 同步批处理：存入数据库 centerLine counts: 122, totalTime costs 404.1797ms
+INFO: 2024/10/31 19:00:08 batchprocesslogic.go:206: 同步批处理：总时间 totalTime costs 17.2343884s
+INFO: 2024/10/31 19:00:08 batchprocesslogic.go:207: 
+INFO: 2024/10/31 19:00:08 batchprocesslogic.go:208: 
+INFO: 2024/10/31 19:00:08 batchprocesslogic.go:209: 
+INFO: 2024/10/31 19:00:12 batchprocesslogic.go:186: 同步批处理，生成centLines 122, Total time：17.6341794s
+INFO: 2024/10/31 19:00:13 batchprocesslogic.go:201: 同步批处理：存入数据库 centerLine counts: 122, totalTime costs 154.7652ms
+INFO: 2024/10/31 19:00:13 batchprocesslogic.go:206: 同步批处理：总时间 totalTime costs 17.7889446s
+INFO: 2024/10/31 19:00:13 batchprocesslogic.go:207: 
+INFO: 2024/10/31 19:00:13 batchprocesslogic.go:208: 
+INFO: 2024/10/31 19:00:13 batchprocesslogic.go:209: 
+INFO: 2024/10/31 19:00:18 batchprocesslogic.go:186: 同步批处理，生成centLines 122, Total time：18.4694209s
+INFO: 2024/10/31 19:00:18 batchprocesslogic.go:201: 同步批处理：存入数据库 centerLine counts: 122, totalTime costs 131.9057ms
+INFO: 2024/10/31 19:00:18 batchprocesslogic.go:206: 同步批处理：总时间 totalTime costs 18.6013266s
+INFO: 2024/10/31 19:00:18 batchprocesslogic.go:207: 
+INFO: 2024/10/31 19:00:18 batchprocesslogic.go:208: 
+INFO: 2024/10/31 19:00:18 batchprocesslogic.go:209: 
+INFO: 2024/10/31 19:00:22 batchprocesslogic.go:186: 同步批处理，生成centLines 122, Total time：18.819655s
+INFO: 2024/10/31 19:00:22 batchprocesslogic.go:201: 同步批处理：存入数据库 centerLine counts: 122, totalTime costs 142.0612ms
+INFO: 2024/10/31 19:00:22 batchprocesslogic.go:206: 同步批处理：总时间 totalTime costs 18.9617162s
+INFO: 2024/10/31 19:00:22 batchprocesslogic.go:207: 
+INFO: 2024/10/31 19:00:22 batchprocesslogic.go:208: 
+INFO: 2024/10/31 19:00:22 batchprocesslogic.go:209: 
+INFO: 2024/10/31 19:00:25 batchprocesslogic.go:186: 同步批处理，生成centLines 122, Total time：17.6355519s
+INFO: 2024/10/31 19:00:26 batchprocesslogic.go:201: 同步批处理：存入数据库 centerLine counts: 122, totalTime costs 280.8257ms
+INFO: 2024/10/31 19:00:26 batchprocesslogic.go:206: 同步批处理：总时间 totalTime costs 17.9169598s
+INFO: 2024/10/31 19:00:26 batchprocesslogic.go:207: 
+INFO: 2024/10/31 19:00:26 batchprocesslogic.go:208: 
+INFO: 2024/10/31 19:00:26 batchprocesslogic.go:209: 
+INFO: 2024/10/31 20:29:10 batchprocesslogic.go:60: 已经生成的中心线 数量： 1
+INFO: 2024/10/31 20:29:10 batchprocesslogic.go:94: 要处理的车道线线数量:  100
+INFO: 2024/10/31 20:29:10 batchprocesslogic.go:186: 同步批处理，生成centLines 43, Total time：8.9098ms
+INFO: 2024/10/31 20:29:10 batchprocesslogic.go:201: 同步批处理：存入数据库 centerLine counts: 43, totalTime costs 221.1489ms
+INFO: 2024/10/31 20:29:10 batchprocesslogic.go:206: 同步批处理：总时间 totalTime costs 230.4886ms
+INFO: 2024/10/31 20:29:10 batchprocesslogic.go:207: 
+INFO: 2024/10/31 20:29:10 batchprocesslogic.go:208: 
+INFO: 2024/10/31 20:29:10 batchprocesslogic.go:209: 
+INFO: 2024/10/31 20:29:15 batchprocesslogic.go:60: 已经生成的中心线 数量： 1
+INFO: 2024/10/31 20:29:15 batchprocesslogic.go:94: 要处理的车道线线数量:  100
+INFO: 2024/10/31 20:29:15 batchprocesslogic.go:186: 同步批处理，生成centLines 43, Total time：8.1218ms
+INFO: 2024/10/31 20:29:15 batchprocesslogic.go:201: 同步批处理：存入数据库 centerLine counts: 43, totalTime costs 35.1061ms
+INFO: 2024/10/31 20:29:15 batchprocesslogic.go:206: 同步批处理：总时间 totalTime costs 44.3067ms
+INFO: 2024/10/31 20:29:15 batchprocesslogic.go:207: 
+INFO: 2024/10/31 20:29:15 batchprocesslogic.go:208: 
+INFO: 2024/10/31 20:29:15 batchprocesslogic.go:209: 
+INFO: 2024/10/31 20:29:23 batchprocesslogic.go:60: 已经生成的中心线 数量： 2
+INFO: 2024/10/31 20:29:23 batchprocesslogic.go:94: 要处理的车道线线数量:  3
+INFO: 2024/10/31 20:29:23 batchprocesslogic.go:186: 同步批处理，生成centLines 1, Total time：0s
+INFO: 2024/10/31 20:29:23 batchprocesslogic.go:201: 同步批处理：存入数据库 centerLine counts: 1, totalTime costs 30.785ms
+INFO: 2024/10/31 20:29:23 batchprocesslogic.go:206: 同步批处理：总时间 totalTime costs 30.785ms
+INFO: 2024/10/31 20:29:23 batchprocesslogic.go:207: 
+INFO: 2024/10/31 20:29:23 batchprocesslogic.go:208: 
+INFO: 2024/10/31 20:29:23 batchprocesslogic.go:209: 
+INFO: 2024/10/31 20:29:32 batchprocesslogic.go:60: 已经生成的中心线 数量： 300
+INFO: 2024/10/31 20:29:32 batchprocesslogic.go:94: 要处理的车道线线数量:  300
+INFO: 2024/10/31 20:29:36 batchprocesslogic.go:60: 已经生成的中心线 数量： 300
+INFO: 2024/10/31 20:29:36 batchprocesslogic.go:94: 要处理的车道线线数量:  300
+INFO: 2024/10/31 20:29:41 batchprocesslogic.go:60: 已经生成的中心线 数量： 300
+INFO: 2024/10/31 20:29:41 batchprocesslogic.go:94: 要处理的车道线线数量:  300
+INFO: 2024/10/31 20:29:45 batchprocesslogic.go:60: 已经生成的中心线 数量： 300
+INFO: 2024/10/31 20:29:45 batchprocesslogic.go:94: 要处理的车道线线数量:  300
+INFO: 2024/10/31 20:29:48 batchprocesslogic.go:186: 同步批处理，生成centLines 122, Total time：15.6008068s
+INFO: 2024/10/31 20:29:48 batchprocesslogic.go:201: 同步批处理：存入数据库 centerLine counts: 122, totalTime costs 164.1094ms
+INFO: 2024/10/31 20:29:48 batchprocesslogic.go:206: 同步批处理：总时间 totalTime costs 15.7649162s
+INFO: 2024/10/31 20:29:48 batchprocesslogic.go:207: 
+INFO: 2024/10/31 20:29:48 batchprocesslogic.go:208: 
+INFO: 2024/10/31 20:29:48 batchprocesslogic.go:209: 
+INFO: 2024/10/31 20:29:49 batchprocesslogic.go:60: 已经生成的中心线 数量： 300
+INFO: 2024/10/31 20:29:49 batchprocesslogic.go:94: 要处理的车道线线数量:  300
+INFO: 2024/10/31 20:29:53 batchprocesslogic.go:60: 已经生成的中心线 数量： 300
+INFO: 2024/10/31 20:29:53 batchprocesslogic.go:94: 要处理的车道线线数量:  300
+INFO: 2024/10/31 20:29:54 batchprocesslogic.go:186: 同步批处理，生成centLines 122, Total time：17.2911004s
+INFO: 2024/10/31 20:29:56 batchprocesslogic.go:201: 同步批处理：存入数据库 centerLine counts: 122, totalTime costs 2.3756919s
+INFO: 2024/10/31 20:29:56 batchprocesslogic.go:206: 同步批处理：总时间 totalTime costs 19.667796s
+INFO: 2024/10/31 20:29:56 batchprocesslogic.go:207: 
+INFO: 2024/10/31 20:29:56 batchprocesslogic.go:208: 
+INFO: 2024/10/31 20:29:56 batchprocesslogic.go:209: 
+INFO: 2024/10/31 20:29:57 batchprocesslogic.go:60: 已经生成的中心线 数量： 300
+INFO: 2024/10/31 20:29:57 batchprocesslogic.go:94: 要处理的车道线线数量:  300
+INFO: 2024/10/31 20:29:59 batchprocesslogic.go:186: 同步批处理，生成centLines 122, Total time：18.641263s
+INFO: 2024/10/31 20:30:00 batchprocesslogic.go:201: 同步批处理：存入数据库 centerLine counts: 122, totalTime costs 456.201ms
+INFO: 2024/10/31 20:30:00 batchprocesslogic.go:206: 同步批处理：总时间 totalTime costs 19.0984631s
+INFO: 2024/10/31 20:30:00 batchprocesslogic.go:207: 
+INFO: 2024/10/31 20:30:00 batchprocesslogic.go:208: 
+INFO: 2024/10/31 20:30:00 batchprocesslogic.go:209: 
+INFO: 2024/10/31 20:30:01 batchprocesslogic.go:60: 已经生成的中心线 数量： 300
+INFO: 2024/10/31 20:30:01 batchprocesslogic.go:94: 要处理的车道线线数量:  300
+INFO: 2024/10/31 20:30:05 batchprocesslogic.go:186: 同步批处理，生成centLines 122, Total time：20.6901708s
+INFO: 2024/10/31 20:30:06 batchprocesslogic.go:60: 已经生成的中心线 数量： 300
+INFO: 2024/10/31 20:30:06 batchprocesslogic.go:94: 要处理的车道线线数量:  300
+INFO: 2024/10/31 20:30:06 batchprocesslogic.go:201: 同步批处理：存入数据库 centerLine counts: 122, totalTime costs 777.0111ms
+INFO: 2024/10/31 20:30:06 batchprocesslogic.go:206: 同步批处理：总时间 totalTime costs 21.4676989s
+INFO: 2024/10/31 20:30:06 batchprocesslogic.go:207: 
+INFO: 2024/10/31 20:30:06 batchprocesslogic.go:208: 
+INFO: 2024/10/31 20:30:06 batchprocesslogic.go:209: 
+INFO: 2024/10/31 20:30:10 batchprocesslogic.go:60: 已经生成的中心线 数量： 300
+INFO: 2024/10/31 20:30:10 batchprocesslogic.go:94: 要处理的车道线线数量:  300
+INFO: 2024/10/31 20:30:11 batchprocesslogic.go:186: 同步批处理，生成centLines 122, Total time：22.4414686s
+INFO: 2024/10/31 20:30:13 batchprocesslogic.go:201: 同步批处理：存入数据库 centerLine counts: 122, totalTime costs 1.4711993s
+INFO: 2024/10/31 20:30:13 batchprocesslogic.go:206: 同步批处理：总时间 totalTime costs 23.9126679s
+INFO: 2024/10/31 20:30:13 batchprocesslogic.go:207: 
+
+-=================================================================
+
+INFO: 2024/10/31 22:02:52 batchprocesslogic.go:59: 已经生成的中心线 数量： 300
+INFO: 2024/10/31 22:02:52 batchprocesslogic.go:94: 要处理的车道线线数量:  300
+INFO: 2024/10/31 22:03:03 batchprocesslogic.go:186: 异步批处理，生成centLines 48, Total time：11.2571186s
+INFO: 2024/10/31 22:03:04 batchprocesslogic.go:201: 异步批处理：存入数据库 centerLine counts: 48, totalTime costs 431.1301ms
+INFO: 2024/10/31 22:03:04 batchprocesslogic.go:206: 异步批处理：总时间 totalTime costs 11.6902499s
+INFO: 2024/10/31 22:03:04 batchprocesslogic.go:207: 
+INFO: 2024/10/31 22:03:04 batchprocesslogic.go:208: 
+INFO: 2024/10/31 22:03:04 batchprocesslogic.go:209: 
+INFO: 2024/10/31 22:03:33 batchprocesslogic.go:59: 已经生成的中心线 数量： 300
+INFO: 2024/10/31 22:03:33 batchprocesslogic.go:94: 要处理的车道线线数量:  300
+INFO: 2024/10/31 22:03:42 batchprocesslogic.go:186: 异步批处理，生成centLines 52, Total time：8.447433s
+INFO: 2024/10/31 22:03:42 batchprocesslogic.go:201: 异步批处理：存入数据库 centerLine counts: 52, totalTime costs 102.4814ms
+INFO: 2024/10/31 22:03:42 batchprocesslogic.go:206: 异步批处理：总时间 totalTime costs 8.5509159s
+INFO: 2024/10/31 22:03:42 batchprocesslogic.go:207: 
+INFO: 2024/10/31 22:03:42 batchprocesslogic.go:208: 
+INFO: 2024/10/31 22:03:42 batchprocesslogic.go:209: 
+INFO: 2024/10/31 22:14:23 batchprocesslogic.go:59: 已经生成的中心线 数量： 300
+INFO: 2024/10/31 22:14:23 batchprocesslogic.go:94: 要处理的车道线线数量:  300
+INFO: 2024/10/31 22:14:30 batchprocesslogic.go:186: 异步批处理，生成centLines 42, Total time：7.2625667s
+INFO: 2024/10/31 22:14:31 batchprocesslogic.go:201: 异步批处理：存入数据库 centerLine counts: 42, totalTime costs 234.5513ms
+INFO: 2024/10/31 22:14:31 batchprocesslogic.go:206: 异步批处理：总时间 totalTime costs 7.5007882s
+INFO: 2024/10/31 22:14:31 batchprocesslogic.go:207: 
+INFO: 2024/10/31 22:14:31 batchprocesslogic.go:208: 
+INFO: 2024/10/31 22:14:31 batchprocesslogic.go:209: 
+INFO: 2024/10/31 22:15:00 batchprocesslogic.go:59: 已经生成的中心线 数量： 300
+INFO: 2024/10/31 22:15:00 batchprocesslogic.go:94: 要处理的车道线线数量:  300
+INFO: 2024/10/31 22:15:08 batchprocesslogic.go:186: 异步批处理，生成centLines 71, Total time：7.3283817s
+INFO: 2024/10/31 22:15:08 batchprocesslogic.go:201: 异步批处理：存入数据库 centerLine counts: 71, totalTime costs 97.028ms
+INFO: 2024/10/31 22:15:08 batchprocesslogic.go:206: 异步批处理：总时间 totalTime costs 7.4254097s
+INFO: 2024/10/31 22:15:08 batchprocesslogic.go:207: 
+INFO: 2024/10/31 22:15:08 batchprocesslogic.go:208: 
+INFO: 2024/10/31 22:15:08 batchprocesslogic.go:209: 
+INFO: 2024/10/31 22:15:36 batchprocesslogic.go:59: 已经生成的中心线 数量： 300
+INFO: 2024/10/31 22:15:36 batchprocesslogic.go:94: 要处理的车道线线数量:  300
+INFO: 2024/10/31 22:15:42 batchprocesslogic.go:186: 异步批处理，生成centLines 31, Total time：6.5726173s
+INFO: 2024/10/31 22:15:42 batchprocesslogic.go:201: 异步批处理：存入数据库 centerLine counts: 31, totalTime costs 259.6604ms
+INFO: 2024/10/31 22:15:42 batchprocesslogic.go:206: 异步批处理：总时间 totalTime costs 6.8332798s
+INFO: 2024/10/31 22:15:42 batchprocesslogic.go:207: 
+INFO: 2024/10/31 22:15:42 batchprocesslogic.go:208: 
+INFO: 2024/10/31 22:15:42 batchprocesslogic.go:209: 
+++=====================同步的--------=======================
+
+INFO: 2024/10/31 22:21:17 batchprocesslogic.go:59: 已经生成的中心线 数量： 100
+INFO: 2024/10/31 22:21:17 batchprocesslogic.go:94: 要处理的车道线线数量:  100
+INFO: 2024/10/31 22:21:18 batchprocesslogic.go:186: 异步批处理，生成centLines 15, Total time：720.1578ms
+INFO: 2024/10/31 22:21:18 batchprocesslogic.go:201: 异步批处理：存入数据库 centerLine counts: 15, totalTime costs 372.8568ms
+INFO: 2024/10/31 22:21:18 batchprocesslogic.go:206: 异步批处理：总时间 totalTime costs 1.094587s
+INFO: 2024/10/31 22:21:18 batchprocesslogic.go:207: 
+INFO: 2024/10/31 22:21:18 batchprocesslogic.go:208: 
+INFO: 2024/10/31 22:21:18 batchprocesslogic.go:209: 
+INFO: 2024/10/31 22:21:19 batchprocesslogic.go:59: 已经生成的中心线 数量： 100
+INFO: 2024/10/31 22:21:19 batchprocesslogic.go:94: 要处理的车道线线数量:  100
+INFO: 2024/10/31 22:21:20 batchprocesslogic.go:186: 异步批处理，生成centLines 15, Total time：1.0152302s
+INFO: 2024/10/31 22:21:20 batchprocesslogic.go:201: 异步批处理：存入数据库 centerLine counts: 15, totalTime costs 20.2762ms
+INFO: 2024/10/31 22:21:20 batchprocesslogic.go:206: 异步批处理：总时间 totalTime costs 1.0360356s
+INFO: 2024/10/31 22:21:20 batchprocesslogic.go:207: 
+INFO: 2024/10/31 22:21:20 batchprocesslogic.go:208: 
+INFO: 2024/10/31 22:21:20 batchprocesslogic.go:209: 
+INFO: 2024/10/31 22:21:21 batchprocesslogic.go:59: 已经生成的中心线 数量： 100
+INFO: 2024/10/31 22:21:21 batchprocesslogic.go:94: 要处理的车道线线数量:  100
+INFO: 2024/10/31 22:21:21 batchprocesslogic.go:186: 异步批处理，生成centLines 0, Total time：19.9741ms
+INFO: 2024/10/31 22:21:21 batchprocesslogic.go:201: 异步批处理：存入数据库 centerLine counts: 0, totalTime costs 0s
+INFO: 2024/10/31 22:21:21 batchprocesslogic.go:206: 异步批处理：总时间 totalTime costs 20.4917ms
+INFO: 2024/10/31 22:21:21 batchprocesslogic.go:207: 
+INFO: 2024/10/31 22:21:21 batchprocesslogic.go:208: 
+INFO: 2024/10/31 22:21:21 batchprocesslogic.go:209: 
+INFO: 2024/10/31 22:22:14 batchprocesslogic.go:59: 已经生成的中心线 数量： 100
+INFO: 2024/10/31 22:22:14 batchprocesslogic.go:94: 要处理的车道线线数量:  100
+INFO: 2024/10/31 22:22:14 batchprocesslogic.go:186: 异步批处理，生成centLines 0, Total time：18.7996ms
+INFO: 2024/10/31 22:22:14 batchprocesslogic.go:201: 异步批处理：存入数据库 centerLine counts: 0, totalTime costs 0s
+INFO: 2024/10/31 22:22:14 batchprocesslogic.go:206: 异步批处理：总时间 totalTime costs 18.7996ms
+INFO: 2024/10/31 22:22:14 batchprocesslogic.go:207: 
+INFO: 2024/10/31 22:22:14 batchprocesslogic.go:208: 
+INFO: 2024/10/31 22:22:14 batchprocesslogic.go:209: 
+INFO: 2024/10/31 22:22:15 batchprocesslogic.go:59: 已经生成的中心线 数量： 100
+INFO: 2024/10/31 22:22:15 batchprocesslogic.go:94: 要处理的车道线线数量:  100
+INFO: 2024/10/31 22:22:16 batchprocesslogic.go:186: 异步批处理，生成centLines 16, Total time：798.0612ms
+INFO: 2024/10/31 22:22:16 batchprocesslogic.go:201: 异步批处理：存入数据库 centerLine counts: 16, totalTime costs 10.1948ms
+INFO: 2024/10/31 22:22:16 batchprocesslogic.go:206: 异步批处理：总时间 totalTime costs 808.256ms
+INFO: 2024/10/31 22:22:16 batchprocesslogic.go:207: 
+INFO: 2024/10/31 22:22:16 batchprocesslogic.go:208: 
+INFO: 2024/10/31 22:22:16 batchprocesslogic.go:209: 
+INFO: 2024/10/31 22:22:17 batchprocesslogic.go:59: 已经生成的中心线 数量： 100
+INFO: 2024/10/31 22:22:17 batchprocesslogic.go:94: 要处理的车道线线数量:  100
+INFO: 2024/10/31 22:22:17 batchprocesslogic.go:186: 异步批处理，生成centLines 0, Total time：23.7246ms
+INFO: 2024/10/31 22:22:17 batchprocesslogic.go:201: 异步批处理：存入数据库 centerLine counts: 0, totalTime costs 0s
+INFO: 2024/10/31 22:22:17 batchprocesslogic.go:206: 异步批处理：总时间 totalTime costs 23.7246ms
+INFO: 2024/10/31 22:22:17 batchprocesslogic.go:207: 
+INFO: 2024/10/31 22:22:17 batchprocesslogic.go:208: 
+INFO: 2024/10/31 22:22:17 batchprocesslogic.go:209: 
+INFO: 2024/10/31 22:22:18 batchprocesslogic.go:59: 已经生成的中心线 数量： 100
+INFO: 2024/10/31 22:22:18 batchprocesslogic.go:94: 要处理的车道线线数量:  100
+INFO: 2024/10/31 22:22:18 batchprocesslogic.go:186: 异步批处理，生成centLines 7, Total time：511.2284ms
+INFO: 2024/10/31 22:22:19 batchprocesslogic.go:201: 异步批处理：存入数据库 centerLine counts: 7, totalTime costs 189.59ms
+INFO: 2024/10/31 22:22:19 batchprocesslogic.go:206: 异步批处理：总时间 totalTime costs 700.8184ms
+INFO: 2024/10/31 22:22:19 batchprocesslogic.go:207: 
+INFO: 2024/10/31 22:22:19 batchprocesslogic.go:208: 
+INFO: 2024/10/31 22:22:19 batchprocesslogic.go:209: 
+INFO: 2024/10/31 22:22:20 batchprocesslogic.go:59: 已经生成的中心线 数量： 100
+INFO: 2024/10/31 22:22:20 batchprocesslogic.go:94: 要处理的车道线线数量:  100
+INFO: 2024/10/31 22:22:20 batchprocesslogic.go:186: 异步批处理，生成centLines 0, Total time：17.6407ms
+INFO: 2024/10/31 22:22:20 batchprocesslogic.go:201: 异步批处理：存入数据库 centerLine counts: 0, totalTime costs 0s
+INFO: 2024/10/31 22:22:20 batchprocesslogic.go:206: 异步批处理：总时间 totalTime costs 17.6407ms
+INFO: 2024/10/31 22:22:20 batchprocesslogic.go:207: 
+INFO: 2024/10/31 22:22:20 batchprocesslogic.go:208: 
+INFO: 2024/10/31 22:22:20 batchprocesslogic.go:209: 
+INFO: 2024/10/31 22:22:21 batchprocesslogic.go:59: 已经生成的中心线 数量： 100
+INFO: 2024/10/31 22:22:21 batchprocesslogic.go:94: 要处理的车道线线数量:  100
+INFO: 2024/10/31 22:22:21 batchprocesslogic.go:186: 异步批处理，生成centLines 0, Total time：20.8697ms
+INFO: 2024/10/31 22:22:21 batchprocesslogic.go:201: 异步批处理：存入数据库 centerLine counts: 0, totalTime costs 0s
+INFO: 2024/10/31 22:22:21 batchprocesslogic.go:206: 异步批处理：总时间 totalTime costs 20.8697ms
+INFO: 2024/10/31 22:22:21 batchprocesslogic.go:207: 
+INFO: 2024/10/31 22:22:21 batchprocesslogic.go:208: 
+INFO: 2024/10/31 22:22:21 batchprocesslogic.go:209: 
+INFO: 2024/10/31 22:22:22 batchprocesslogic.go:59: 已经生成的中心线 数量： 100
+INFO: 2024/10/31 22:22:22 batchprocesslogic.go:94: 要处理的车道线线数量:  100
+INFO: 2024/10/31 22:22:23 batchprocesslogic.go:186: 异步批处理，生成centLines 10, Total time：803.2614ms
+INFO: 2024/10/31 22:22:23 batchprocesslogic.go:201: 异步批处理：存入数据库 centerLine counts: 10, totalTime costs 18.3645ms
+INFO: 2024/10/31 22:22:23 batchprocesslogic.go:206: 异步批处理：总时间 totalTime costs 821.6259ms
+INFO: 2024/10/31 22:22:23 batchprocesslogic.go:207: 
+INFO: 2024/10/31 22:22:23 batchprocesslogic.go:208: 
+INFO: 2024/10/31 22:22:23 batchprocesslogic.go:209: 
+INFO: 2024/10/31 22:22:24 batchprocesslogic.go:59: 已经生成的中心线 数量： 100
+INFO: 2024/10/31 22:22:24 batchprocesslogic.go:94: 要处理的车道线线数量:  100
+INFO: 2024/10/31 22:22:24 batchprocesslogic.go:186: 异步批处理，生成centLines 0, Total time：23.2376ms
+INFO: 2024/10/31 22:22:24 batchprocesslogic.go:201: 异步批处理：存入数据库 centerLine counts: 0, totalTime costs 0s
+INFO: 2024/10/31 22:22:24 batchprocesslogic.go:206: 异步批处理：总时间 totalTime costs 23.7497ms
+INFO: 2024/10/31 22:22:24 batchprocesslogic.go:207: 
+INFO: 2024/10/31 22:22:24 batchprocesslogic.go:208: 
+INFO: 2024/10/31 22:22:24 batchprocesslogic.go:209: 
+INFO: 2024/10/31 22:22:25 batchprocesslogic.go:59: 已经生成的中心线 数量： 100
+INFO: 2024/10/31 22:22:25 batchprocesslogic.go:94: 要处理的车道线线数量:  100
+INFO: 2024/10/31 22:22:25 batchprocesslogic.go:186: 异步批处理，生成centLines 4, Total time：194.8672ms
+INFO: 2024/10/31 22:22:25 batchprocesslogic.go:201: 异步批处理：存入数据库 centerLine counts: 4, totalTime costs 0s
+INFO: 2024/10/31 22:22:25 batchprocesslogic.go:206: 异步批处理：总时间 totalTime costs 194.8672ms
+INFO: 2024/10/31 22:22:25 batchprocesslogic.go:207: 
+INFO: 2024/10/31 22:22:25 batchprocesslogic.go:208: 
+INFO: 2024/10/31 22:22:25 batchprocesslogic.go:209: 
+INFO: 2024/10/31 22:22:27 batchprocesslogic.go:59: 已经生成的中心线 数量： 100
+INFO: 2024/10/31 22:22:27 batchprocesslogic.go:94: 要处理的车道线线数量:  100
+INFO: 2024/10/31 22:22:27 batchprocesslogic.go:186: 异步批处理，生成centLines 4, Total time：601.4148ms
+INFO: 2024/10/31 22:22:27 batchprocesslogic.go:201: 异步批处理：存入数据库 centerLine counts: 4, totalTime costs 14.6222ms
+INFO: 2024/10/31 22:22:27 batchprocesslogic.go:206: 异步批处理：总时间 totalTime costs 619.0641ms
+INFO: 2024/10/31 22:22:27 batchprocesslogic.go:207: 
+INFO: 2024/10/31 22:22:27 batchprocesslogic.go:208: 
+INFO: 2024/10/31 22:22:27 batchprocesslogic.go:209: 
+INFO: 2024/10/31 22:25:52 batchprocesslogic.go:59: 已经生成的中心线 数量： 100
+INFO: 2024/10/31 22:25:52 batchprocesslogic.go:94: 要处理的车道线线数量:  100
+INFO: 2024/10/31 22:25:52 batchprocesslogic.go:190: 同步批处理，生成centLines 19, Total time：236.573ms
+INFO: 2024/10/31 22:25:52 batchprocesslogic.go:205: 同步批处理：存入数据库 centerLine counts: 19, totalTime costs 221.7001ms
+INFO: 2024/10/31 22:25:52 batchprocesslogic.go:210: 同步批处理：总时间 totalTime costs 459.6196ms
+INFO: 2024/10/31 22:25:52 batchprocesslogic.go:211: 
+INFO: 2024/10/31 22:25:52 batchprocesslogic.go:212: 
+INFO: 2024/10/31 22:25:52 batchprocesslogic.go:213: 
+INFO: 2024/10/31 22:25:53 batchprocesslogic.go:59: 已经生成的中心线 数量： 100
+INFO: 2024/10/31 22:25:53 batchprocesslogic.go:94: 要处理的车道线线数量:  100
+INFO: 2024/10/31 22:25:53 batchprocesslogic.go:190: 同步批处理，生成centLines 5, Total time：69.16ms
+INFO: 2024/10/31 22:25:53 batchprocesslogic.go:205: 同步批处理：存入数据库 centerLine counts: 5, totalTime costs 10.6104ms
+INFO: 2024/10/31 22:25:53 batchprocesslogic.go:210: 同步批处理：总时间 totalTime costs 81.3749ms
+INFO: 2024/10/31 22:25:53 batchprocesslogic.go:211: 
+INFO: 2024/10/31 22:25:53 batchprocesslogic.go:212: 
+INFO: 2024/10/31 22:25:53 batchprocesslogic.go:213: 
+INFO: 2024/10/31 22:25:54 batchprocesslogic.go:59: 已经生成的中心线 数量： 100
+INFO: 2024/10/31 22:25:54 batchprocesslogic.go:94: 要处理的车道线线数量:  100
+INFO: 2024/10/31 22:25:54 batchprocesslogic.go:190: 同步批处理，生成centLines 2, Total time：46.6445ms
+INFO: 2024/10/31 22:25:54 batchprocesslogic.go:205: 同步批处理：存入数据库 centerLine counts: 2, totalTime costs 0s
+INFO: 2024/10/31 22:25:54 batchprocesslogic.go:210: 同步批处理：总时间 totalTime costs 46.6445ms
+INFO: 2024/10/31 22:25:54 batchprocesslogic.go:211: 
+INFO: 2024/10/31 22:25:54 batchprocesslogic.go:212: 
+INFO: 2024/10/31 22:25:54 batchprocesslogic.go:213: 
+INFO: 2024/10/31 22:25:56 batchprocesslogic.go:59: 已经生成的中心线 数量： 100
+INFO: 2024/10/31 22:25:56 batchprocesslogic.go:94: 要处理的车道线线数量:  100
+INFO: 2024/10/31 22:25:56 batchprocesslogic.go:190: 同步批处理，生成centLines 7, Total time：99.6737ms
+INFO: 2024/10/31 22:25:56 batchprocesslogic.go:205: 同步批处理：存入数据库 centerLine counts: 7, totalTime costs 281.5855ms
+INFO: 2024/10/31 22:25:56 batchprocesslogic.go:210: 同步批处理：总时间 totalTime costs 381.8311ms
+INFO: 2024/10/31 22:25:56 batchprocesslogic.go:211: 
+INFO: 2024/10/31 22:25:56 batchprocesslogic.go:212: 
+INFO: 2024/10/31 22:25:56 batchprocesslogic.go:213: 
+INFO: 2024/10/31 22:25:57 batchprocesslogic.go:59: 已经生成的中心线 数量： 100
+INFO: 2024/10/31 22:25:57 batchprocesslogic.go:94: 要处理的车道线线数量:  100
+INFO: 2024/10/31 22:25:57 batchprocesslogic.go:190: 同步批处理，生成centLines 0, Total time：19.5594ms
+INFO: 2024/10/31 22:25:57 batchprocesslogic.go:205: 同步批处理：存入数据库 centerLine counts: 0, totalTime costs 0s
+INFO: 2024/10/31 22:25:57 batchprocesslogic.go:210: 同步批处理：总时间 totalTime costs 19.5594ms
+INFO: 2024/10/31 22:25:57 batchprocesslogic.go:211: 
+INFO: 2024/10/31 22:25:57 batchprocesslogic.go:212: 
+INFO: 2024/10/31 22:25:57 batchprocesslogic.go:213: 
+INFO: 2024/10/31 22:25:58 batchprocesslogic.go:59: 已经生成的中心线 数量： 100
+INFO: 2024/10/31 22:25:58 batchprocesslogic.go:94: 要处理的车道线线数量:  100
+INFO: 2024/10/31 22:25:58 batchprocesslogic.go:190: 同步批处理，生成centLines 1, Total time：34.0774ms
+INFO: 2024/10/31 22:25:58 batchprocesslogic.go:205: 同步批处理：存入数据库 centerLine counts: 1, totalTime costs 0s
+INFO: 2024/10/31 22:25:58 batchprocesslogic.go:210: 同步批处理：总时间 totalTime costs 34.6381ms
+INFO: 2024/10/31 22:25:58 batchprocesslogic.go:211: 
+INFO: 2024/10/31 22:25:58 batchprocesslogic.go:212: 
+INFO: 2024/10/31 22:25:58 batchprocesslogic.go:213: 
+INFO: 2024/10/31 22:25:59 batchprocesslogic.go:59: 已经生成的中心线 数量： 100
+INFO: 2024/10/31 22:25:59 batchprocesslogic.go:94: 要处理的车道线线数量:  100
+INFO: 2024/10/31 22:26:00 batchprocesslogic.go:190: 同步批处理，生成centLines 20, Total time：245.9533ms
+INFO: 2024/10/31 22:26:00 batchprocesslogic.go:205: 同步批处理：存入数据库 centerLine counts: 20, totalTime costs 44.9204ms
+INFO: 2024/10/31 22:26:00 batchprocesslogic.go:210: 同步批处理：总时间 totalTime costs 290.8737ms
+INFO: 2024/10/31 22:26:00 batchprocesslogic.go:211: 
+INFO: 2024/10/31 22:26:00 batchprocesslogic.go:212: 
+INFO: 2024/10/31 22:26:00 batchprocesslogic.go:213: 
+INFO: 2024/10/31 22:26:01 batchprocesslogic.go:59: 已经生成的中心线 数量： 100
+INFO: 2024/10/31 22:26:01 batchprocesslogic.go:94: 要处理的车道线线数量:  100
+INFO: 2024/10/31 22:26:01 batchprocesslogic.go:190: 同步批处理，生成centLines 2, Total time：46.9656ms
+INFO: 2024/10/31 22:26:01 batchprocesslogic.go:205: 同步批处理：存入数据库 centerLine counts: 2, totalTime costs 226.7026ms
+INFO: 2024/10/31 22:26:01 batchprocesslogic.go:210: 同步批处理：总时间 totalTime costs 274.6302ms
+INFO: 2024/10/31 22:26:01 batchprocesslogic.go:211: 
+INFO: 2024/10/31 22:26:01 batchprocesslogic.go:212: 
+INFO: 2024/10/31 22:26:01 batchprocesslogic.go:213: 
+INFO: 2024/10/31 22:26:02 batchprocesslogic.go:59: 已经生成的中心线 数量： 100
+INFO: 2024/10/31 22:26:02 batchprocesslogic.go:94: 要处理的车道线线数量:  100
+INFO: 2024/10/31 22:26:02 batchprocesslogic.go:190: 同步批处理，生成centLines 0, Total time：24.5247ms
+INFO: 2024/10/31 22:26:02 batchprocesslogic.go:205: 同步批处理：存入数据库 centerLine counts: 0, totalTime costs 0s
+INFO: 2024/10/31 22:26:02 batchprocesslogic.go:210: 同步批处理：总时间 totalTime costs 25.0326ms
+INFO: 2024/10/31 22:26:02 batchprocesslogic.go:211: 
+INFO: 2024/10/31 22:26:02 batchprocesslogic.go:212: 
+INFO: 2024/10/31 22:26:02 batchprocesslogic.go:213: 
+INFO: 2024/10/31 22:26:04 batchprocesslogic.go:59: 已经生成的中心线 数量： 100
+INFO: 2024/10/31 22:26:04 batchprocesslogic.go:94: 要处理的车道线线数量:  100
+INFO: 2024/10/31 22:26:04 batchprocesslogic.go:190: 同步批处理，生成centLines 28, Total time：376.9833ms
+INFO: 2024/10/31 22:26:04 batchprocesslogic.go:205: 同步批处理：存入数据库 centerLine counts: 28, totalTime costs 11.0071ms
+INFO: 2024/10/31 22:26:04 batchprocesslogic.go:210: 同步批处理：总时间 totalTime costs 387.9904ms
+INFO: 2024/10/31 22:26:04 batchprocesslogic.go:211: 
+INFO: 2024/10/31 22:26:04 batchprocesslogic.go:212: 
+INFO: 2024/10/31 22:26:04 batchprocesslogic.go:213:
+--------------------------------
+
+
+INFO: 2024/10/31 22:27:46 batchprocesslogic.go:60: 已经生成的中心线 数量： 100
+INFO: 2024/10/31 22:27:46 batchprocesslogic.go:94: 要处理的车道线线数量:  100
+INFO: 2024/10/31 22:27:47 batchprocesslogic.go:186: 同步批处理，生成centLines 43, Total time：513.1868ms
+INFO: 2024/10/31 22:27:47 batchprocesslogic.go:201: 同步批处理：存入数据库 centerLine counts: 43, totalTime costs 302.8508ms
+INFO: 2024/10/31 22:27:47 batchprocesslogic.go:206: 同步批处理：总时间 totalTime costs 816.0376ms
+INFO: 2024/10/31 22:27:47 batchprocesslogic.go:207: 
+INFO: 2024/10/31 22:27:47 batchprocesslogic.go:208: 
+INFO: 2024/10/31 22:27:47 batchprocesslogic.go:209: 
+INFO: 2024/10/31 22:27:48 batchprocesslogic.go:60: 已经生成的中心线 数量： 100
+INFO: 2024/10/31 22:27:48 batchprocesslogic.go:94: 要处理的车道线线数量:  100
+INFO: 2024/10/31 22:27:49 batchprocesslogic.go:186: 同步批处理，生成centLines 43, Total time：512.2058ms
+INFO: 2024/10/31 22:27:49 batchprocesslogic.go:201: 同步批处理：存入数据库 centerLine counts: 43, totalTime costs 20.5028ms
+INFO: 2024/10/31 22:27:49 batchprocesslogic.go:206: 同步批处理：总时间 totalTime costs 532.7086ms
+INFO: 2024/10/31 22:27:49 batchprocesslogic.go:207: 
+INFO: 2024/10/31 22:27:49 batchprocesslogic.go:208: 
+INFO: 2024/10/31 22:27:49 batchprocesslogic.go:209: 
+INFO: 2024/10/31 22:27:50 batchprocesslogic.go:60: 已经生成的中心线 数量： 100
+INFO: 2024/10/31 22:27:50 batchprocesslogic.go:94: 要处理的车道线线数量:  100
+INFO: 2024/10/31 22:27:50 batchprocesslogic.go:186: 同步批处理，生成centLines 43, Total time：542.6309ms
+INFO: 2024/10/31 22:27:50 batchprocesslogic.go:201: 同步批处理：存入数据库 centerLine counts: 43, totalTime costs 37.3753ms
+INFO: 2024/10/31 22:27:50 batchprocesslogic.go:206: 同步批处理：总时间 totalTime costs 580.0062ms
+INFO: 2024/10/31 22:27:50 batchprocesslogic.go:207: 
+INFO: 2024/10/31 22:27:50 batchprocesslogic.go:208: 
+INFO: 2024/10/31 22:27:50 batchprocesslogic.go:209: 
+INFO: 2024/10/31 22:27:51 batchprocesslogic.go:60: 已经生成的中心线 数量： 100
+INFO: 2024/10/31 22:27:51 batchprocesslogic.go:94: 要处理的车道线线数量:  100
+INFO: 2024/10/31 22:27:52 batchprocesslogic.go:186: 同步批处理，生成centLines 43, Total time：503.3773ms
+INFO: 2024/10/31 22:27:52 batchprocesslogic.go:201: 同步批处理：存入数据库 centerLine counts: 43, totalTime costs 32.7937ms
+INFO: 2024/10/31 22:27:52 batchprocesslogic.go:206: 同步批处理：总时间 totalTime costs 536.7131ms
+INFO: 2024/10/31 22:27:52 batchprocesslogic.go:207: 
+INFO: 2024/10/31 22:27:52 batchprocesslogic.go:208: 
+INFO: 2024/10/31 22:27:52 batchprocesslogic.go:209: 
+INFO: 2024/10/31 22:27:53 batchprocesslogic.go:60: 已经生成的中心线 数量： 100
+INFO: 2024/10/31 22:27:53 batchprocesslogic.go:94: 要处理的车道线线数量:  100
+INFO: 2024/10/31 22:27:54 batchprocesslogic.go:186: 同步批处理，生成centLines 43, Total time：509.9527ms
+INFO: 2024/10/31 22:27:54 batchprocesslogic.go:201: 同步批处理：存入数据库 centerLine counts: 43, totalTime costs 29.074ms
+INFO: 2024/10/31 22:27:54 batchprocesslogic.go:206: 同步批处理：总时间 totalTime costs 539.5616ms
+INFO: 2024/10/31 22:27:54 batchprocesslogic.go:207: 
+INFO: 2024/10/31 22:27:54 batchprocesslogic.go:208: 
+INFO: 2024/10/31 22:27:54 batchprocesslogic.go:209: 
+INFO: 2024/10/31 22:27:55 batchprocesslogic.go:60: 已经生成的中心线 数量： 100
+INFO: 2024/10/31 22:27:55 batchprocesslogic.go:94: 要处理的车道线线数量:  100
+INFO: 2024/10/31 22:27:55 batchprocesslogic.go:186: 同步批处理，生成centLines 43, Total time：507.8034ms
+INFO: 2024/10/31 22:27:55 batchprocesslogic.go:201: 同步批处理：存入数据库 centerLine counts: 43, totalTime costs 27.8412ms
+INFO: 2024/10/31 22:27:55 batchprocesslogic.go:206: 同步批处理：总时间 totalTime costs 535.6446ms
+INFO: 2024/10/31 22:27:55 batchprocesslogic.go:207: 
+INFO: 2024/10/31 22:27:55 batchprocesslogic.go:208: 
+INFO: 2024/10/31 22:27:55 batchprocesslogic.go:209: 
+INFO: 2024/10/31 22:27:56 batchprocesslogic.go:60: 已经生成的中心线 数量： 100
+INFO: 2024/10/31 22:27:56 batchprocesslogic.go:94: 要处理的车道线线数量:  100
+INFO: 2024/10/31 22:27:57 batchprocesslogic.go:186: 同步批处理，生成centLines 43, Total time：499.8426ms
+INFO: 2024/10/31 22:27:57 batchprocesslogic.go:201: 同步批处理：存入数据库 centerLine counts: 43, totalTime costs 39.1825ms
+INFO: 2024/10/31 22:27:57 batchprocesslogic.go:206: 同步批处理：总时间 totalTime costs 539.0251ms
+INFO: 2024/10/31 22:27:57 batchprocesslogic.go:207: 
+INFO: 2024/10/31 22:27:57 batchprocesslogic.go:208: 
+INFO: 2024/10/31 22:27:57 batchprocesslogic.go:209: 
+INFO: 2024/10/31 22:27:58 batchprocesslogic.go:60: 已经生成的中心线 数量： 100
+INFO: 2024/10/31 22:27:58 batchprocesslogic.go:94: 要处理的车道线线数量:  100
+INFO: 2024/10/31 22:27:59 batchprocesslogic.go:186: 同步批处理，生成centLines 43, Total time：505.6813ms
+INFO: 2024/10/31 22:27:59 batchprocesslogic.go:201: 同步批处理：存入数据库 centerLine counts: 43, totalTime costs 41.9462ms
+INFO: 2024/10/31 22:27:59 batchprocesslogic.go:206: 同步批处理：总时间 totalTime costs 547.6275ms
+INFO: 2024/10/31 22:27:59 batchprocesslogic.go:207: 
+INFO: 2024/10/31 22:27:59 batchprocesslogic.go:208: 
+INFO: 2024/10/31 22:27:59 batchprocesslogic.go:209: 
+INFO: 2024/10/31 22:28:00 batchprocesslogic.go:60: 已经生成的中心线 数量： 100
+INFO: 2024/10/31 22:28:00 batchprocesslogic.go:94: 要处理的车道线线数量:  100
+INFO: 2024/10/31 22:28:00 batchprocesslogic.go:186: 同步批处理，生成centLines 43, Total time：519.7953ms
+INFO: 2024/10/31 22:28:00 batchprocesslogic.go:201: 同步批处理：存入数据库 centerLine counts: 43, totalTime costs 21.2062ms
+INFO: 2024/10/31 22:28:00 batchprocesslogic.go:206: 同步批处理：总时间 totalTime costs 541.0015ms
+INFO: 2024/10/31 22:28:00 batchprocesslogic.go:207: 
+INFO: 2024/10/31 22:28:00 batchprocesslogic.go:208: 
+INFO: 2024/10/31 22:28:00 batchprocesslogic.go:209: 
+INFO: 2024/10/31 22:28:01 batchprocesslogic.go:60: 已经生成的中心线 数量： 100
+INFO: 2024/10/31 22:28:01 batchprocesslogic.go:94: 要处理的车道线线数量:  100
+INFO: 2024/10/31 22:28:02 batchprocesslogic.go:186: 同步批处理，生成centLines 43, Total time：502.3607ms
+INFO: 2024/10/31 22:28:02 batchprocesslogic.go:201: 同步批处理：存入数据库 centerLine counts: 43, totalTime costs 77.818ms
+INFO: 2024/10/31 22:28:02 batchprocesslogic.go:206: 同步批处理：总时间 totalTime costs 580.1787ms
+INFO: 2024/10/31 22:28:02 batchprocesslogic.go:207: 
+INFO: 2024/10/31 22:28:02 batchprocesslogic.go:208: 
+INFO: 2024/10/31 22:28:02 batchprocesslogic.go:209: 
+
+
+_------------------------------异步-----------------------------------
+
+INFO: 2024/10/31 22:48:46 batchprocesslogic.go:61: 已经生成的中心线 数量： 100
+INFO: 2024/10/31 22:48:46 batchprocesslogic.go:95: 要处理的车道线线数量:  300
+INFO: 2024/10/31 22:48:47 batchprocesslogic.go:61: 已经生成的中心线 数量： 100
+INFO: 2024/10/31 22:48:47 batchprocesslogic.go:95: 要处理的车道线线数量:  300
+INFO: 2024/10/31 22:48:48 batchprocesslogic.go:61: 已经生成的中心线 数量： 100
+INFO: 2024/10/31 22:48:48 batchprocesslogic.go:95: 要处理的车道线线数量:  300
+INFO: 2024/10/31 22:48:50 batchprocesslogic.go:61: 已经生成的中心线 数量： 100
+INFO: 2024/10/31 22:48:50 batchprocesslogic.go:95: 要处理的车道线线数量:  300
+INFO: 2024/10/31 22:48:50 batchprocesslogic.go:194: 同步批处理，生成centLines 0, Total time：215.8169ms
+INFO: 2024/10/31 22:48:50 batchprocesslogic.go:209: 同步批处理：存入数据库 centerLine counts: 0, totalTime costs 1.1528ms
+INFO: 2024/10/31 22:48:50 batchprocesslogic.go:214: 同步批处理：总时间 totalTime costs 218.0436ms
+INFO: 2024/10/31 22:48:50 batchprocesslogic.go:215: 
+INFO: 2024/10/31 22:48:50 batchprocesslogic.go:216: 
+INFO: 2024/10/31 22:48:50 batchprocesslogic.go:217: 
+INFO: 2024/10/31 22:48:51 batchprocesslogic.go:61: 已经生成的中心线 数量： 100
+INFO: 2024/10/31 22:48:51 batchprocesslogic.go:95: 要处理的车道线线数量:  300
+INFO: 2024/10/31 22:48:52 batchprocesslogic.go:61: 已经生成的中心线 数量： 100
+INFO: 2024/10/31 22:48:52 batchprocesslogic.go:95: 要处理的车道线线数量:  300
+INFO: 2024/10/31 22:48:53 batchprocesslogic.go:61: 已经生成的中心线 数量： 100
+INFO: 2024/10/31 22:48:53 batchprocesslogic.go:95: 要处理的车道线线数量:  300
+INFO: 2024/10/31 22:48:54 batchprocesslogic.go:61: 已经生成的中心线 数量： 100
+INFO: 2024/10/31 22:48:54 batchprocesslogic.go:95: 要处理的车道线线数量:  300
+INFO: 2024/10/31 22:48:56 batchprocesslogic.go:61: 已经生成的中心线 数量： 100
+INFO: 2024/10/31 22:48:56 batchprocesslogic.go:95: 要处理的车道线线数量:  300
+INFO: 2024/10/31 22:48:57 batchprocesslogic.go:61: 已经生成的中心线 数量： 100
+INFO: 2024/10/31 22:48:57 batchprocesslogic.go:95: 要处理的车道线线数量:  300
+INFO: 2024/10/31 22:49:51 batchprocesslogic.go:61: 已经生成的中心线 数量： 100
+INFO: 2024/10/31 22:49:51 batchprocesslogic.go:95: 要处理的车道线线数量:  300
+INFO: 2024/10/31 22:49:52 batchprocesslogic.go:61: 已经生成的中心线 数量： 100
+INFO: 2024/10/31 22:49:52 batchprocesslogic.go:95: 要处理的车道线线数量:  300
+INFO: 2024/10/31 22:49:53 batchprocesslogic.go:61: 已经生成的中心线 数量： 100
+INFO: 2024/10/31 22:49:53 batchprocesslogic.go:95: 要处理的车道线线数量:  300
+INFO: 2024/10/31 22:49:54 batchprocesslogic.go:61: 已经生成的中心线 数量： 100
+INFO: 2024/10/31 22:49:54 batchprocesslogic.go:95: 要处理的车道线线数量:  300
+INFO: 2024/10/31 22:51:10 batchprocesslogic.go:61: 已经生成的中心线 数量： 300
+INFO: 2024/10/31 22:51:10 batchprocesslogic.go:95: 要处理的车道线线数量:  300
+INFO: 2024/10/31 22:52:48 batchprocesslogic.go:61: 已经生成的中心线 数量： 300
+INFO: 2024/10/31 22:52:48 batchprocesslogic.go:95: 要处理的车道线线数量:  300
+INFO: 2024/10/31 22:55:36 batchprocesslogic.go:61: 已经生成的中心线 数量： 300
+INFO: 2024/10/31 22:55:36 batchprocesslogic.go:95: 要处理的车道线线数量:  300
+INFO: 2024/10/31 22:55:57 batchprocesslogic.go:61: 已经生成的中心线 数量： 2
+INFO: 2024/10/31 22:55:57 batchprocesslogic.go:95: 要处理的车道线线数量:  3
+INFO: 2024/10/31 22:55:57 batchprocesslogic.go:194: 同步批处理，生成centLines 0, Total time：0s
+INFO: 2024/10/31 22:55:57 batchprocesslogic.go:209: 同步批处理：存入数据库 centerLine counts: 0, totalTime costs 0s
+INFO: 2024/10/31 22:55:57 batchprocesslogic.go:214: 同步批处理：总时间 totalTime costs 1.0587ms
+INFO: 2024/10/31 22:55:57 batchprocesslogic.go:215: 
+INFO: 2024/10/31 22:55:57 batchprocesslogic.go:216: 
+INFO: 2024/10/31 22:55:57 batchprocesslogic.go:217: 
+INFO: 2024/10/31 22:56:07 batchprocesslogic.go:61: 已经生成的中心线 数量： 1
+INFO: 2024/10/31 22:56:07 batchprocesslogic.go:95: 要处理的车道线线数量:  300
+INFO: 2024/10/31 22:57:29 batchprocesslogic.go:61: 已经生成的中心线 数量： 1
+INFO: 2024/10/31 22:57:29 batchprocesslogic.go:95: 要处理的车道线线数量:  300
+INFO: 2024/10/31 23:00:18 batchprocesslogic.go:61: 已经生成的中心线 数量： 1
+INFO: 2024/10/31 23:00:18 batchprocesslogic.go:95: 要处理的车道线线数量:  300
+INFO: 2024/10/31 23:00:59 batchprocesslogic.go:61: 已经生成的中心线 数量： 1
+INFO: 2024/10/31 23:00:59 batchprocesslogic.go:95: 要处理的车道线线数量:  300
+INFO: 2024/10/31 23:02:45 batchprocesslogic.go:60: 已经生成的中心线 数量： 100
+INFO: 2024/10/31 23:02:45 batchprocesslogic.go:94: 要处理的车道线线数量:  300
+INFO: 2024/10/31 23:02:46 batchprocesslogic.go:186: 同步批处理，生成centLines 122, Total time：635.2271ms
+INFO: 2024/10/31 23:02:46 batchprocesslogic.go:201: 同步批处理：存入数据库 centerLine counts: 122, totalTime costs 284.7976ms
+INFO: 2024/10/31 23:02:46 batchprocesslogic.go:206: 同步批处理：总时间 totalTime costs 920.0247ms
+INFO: 2024/10/31 23:02:46 batchprocesslogic.go:207: 
+INFO: 2024/10/31 23:02:46 batchprocesslogic.go:208: 
+INFO: 2024/10/31 23:02:46 batchprocesslogic.go:209: 
+INFO: 2024/10/31 23:02:47 batchprocesslogic.go:60: 已经生成的中心线 数量： 100
+INFO: 2024/10/31 23:02:47 batchprocesslogic.go:94: 要处理的车道线线数量:  300
+INFO: 2024/10/31 23:02:48 batchprocesslogic.go:186: 同步批处理，生成centLines 122, Total time：701.3959ms
+INFO: 2024/10/31 23:02:48 batchprocesslogic.go:201: 同步批处理：存入数据库 centerLine counts: 122, totalTime costs 136.682ms
+INFO: 2024/10/31 23:02:48 batchprocesslogic.go:206: 同步批处理：总时间 totalTime costs 838.0779ms
+INFO: 2024/10/31 23:02:48 batchprocesslogic.go:207: 
+INFO: 2024/10/31 23:02:48 batchprocesslogic.go:208: 
+INFO: 2024/10/31 23:02:48 batchprocesslogic.go:209: 
+INFO: 2024/10/31 23:02:49 batchprocesslogic.go:60: 已经生成的中心线 数量： 100
+INFO: 2024/10/31 23:02:49 batchprocesslogic.go:94: 要处理的车道线线数量:  300
+INFO: 2024/10/31 23:02:50 batchprocesslogic.go:186: 同步批处理，生成centLines 122, Total time：776.4063ms
+INFO: 2024/10/31 23:02:50 batchprocesslogic.go:201: 同步批处理：存入数据库 centerLine counts: 122, totalTime costs 115.7681ms
+INFO: 2024/10/31 23:02:50 batchprocesslogic.go:206: 同步批处理：总时间 totalTime costs 892.4025ms
+INFO: 2024/10/31 23:02:50 batchprocesslogic.go:207: 
+INFO: 2024/10/31 23:02:50 batchprocesslogic.go:208: 
+INFO: 2024/10/31 23:02:50 batchprocesslogic.go:209: 
+INFO: 2024/10/31 23:02:51 batchprocesslogic.go:60: 已经生成的中心线 数量： 100
+INFO: 2024/10/31 23:02:51 batchprocesslogic.go:94: 要处理的车道线线数量:  300
+INFO: 2024/10/31 23:02:52 batchprocesslogic.go:186: 同步批处理，生成centLines 122, Total time：1.0778983s
+INFO: 2024/10/31 23:02:52 batchprocesslogic.go:201: 同步批处理：存入数据库 centerLine counts: 122, totalTime costs 117.4946ms
+INFO: 2024/10/31 23:02:52 batchprocesslogic.go:206: 同步批处理：总时间 totalTime costs 1.1959439s
+INFO: 2024/10/31 23:02:52 batchprocesslogic.go:207: 
+INFO: 2024/10/31 23:02:52 batchprocesslogic.go:208: 
+INFO: 2024/10/31 23:02:52 batchprocesslogic.go:209: 
+INFO: 2024/10/31 23:04:54 batchprocesslogic.go:61: 已经生成的中心线 数量： 100
+INFO: 2024/10/31 23:04:54 batchprocesslogic.go:95: 要处理的车道线线数量:  300
+INFO: 2024/10/31 23:04:55 batchprocesslogic.go:61: 已经生成的中心线 数量： 100
+INFO: 2024/10/31 23:04:55 batchprocesslogic.go:95: 要处理的车道线线数量:  300
+INFO: 2024/10/31 23:04:56 batchprocesslogic.go:61: 已经生成的中心线 数量： 100
+INFO: 2024/10/31 23:04:56 batchprocesslogic.go:95: 要处理的车道线线数量:  300
+INFO: 2024/10/31 23:04:58 batchprocesslogic.go:61: 已经生成的中心线 数量： 100
+INFO: 2024/10/31 23:04:58 batchprocesslogic.go:95: 要处理的车道线线数量:  300
+INFO: 2024/10/31 23:09:49 batchprocesslogic.go:61: 已经生成的中心线 数量： 100
+INFO: 2024/10/31 23:09:49 batchprocesslogic.go:95: 要处理的车道线线数量:  300
+INFO: 2024/10/31 23:09:50 batchprocesslogic.go:61: 已经生成的中心线 数量： 100
+INFO: 2024/10/31 23:09:50 batchprocesslogic.go:95: 要处理的车道线线数量:  300
+INFO: 2024/10/31 23:09:52 batchprocesslogic.go:61: 已经生成的中心线 数量： 100
+INFO: 2024/10/31 23:09:52 batchprocesslogic.go:95: 要处理的车道线线数量:  300
+INFO: 2024/10/31 23:09:53 batchprocesslogic.go:61: 已经生成的中心线 数量： 100
+INFO: 2024/10/31 23:09:53 batchprocesslogic.go:95: 要处理的车道线线数量:  300
+--------------------------------------
+
+
+
+INFO: 2024/10/31 23:14:38 batchprocesslogic.go:61: 已经生成的中心线 数量： 100
+INFO: 2024/10/31 23:14:38 batchprocesslogic.go:95: 要处理的车道线线数量:  300
+INFO: 2024/10/31 23:14:39 batchprocesslogic.go:197: 同步批处理，生成centLines 52, Total time：430.867ms
+INFO: 2024/10/31 23:14:39 batchprocesslogic.go:212: 同步批处理：存入数据库 centerLine counts: 52, totalTime costs 132.3258ms
+INFO: 2024/10/31 23:14:39 batchprocesslogic.go:217: 同步批处理：总时间 totalTime costs 563.7361ms
+INFO: 2024/10/31 23:14:39 batchprocesslogic.go:218: 
+INFO: 2024/10/31 23:14:39 batchprocesslogic.go:219: 
+INFO: 2024/10/31 23:14:39 batchprocesslogic.go:220: 
+INFO: 2024/10/31 23:14:39 batchprocesslogic.go:61: 已经生成的中心线 数量： 100
+INFO: 2024/10/31 23:14:39 batchprocesslogic.go:95: 要处理的车道线线数量:  300
+INFO: 2024/10/31 23:14:40 batchprocesslogic.go:197: 同步批处理，生成centLines 38, Total time：412.9863ms
+INFO: 2024/10/31 23:14:40 batchprocesslogic.go:212: 同步批处理：存入数据库 centerLine counts: 38, totalTime costs 32.717ms
+INFO: 2024/10/31 23:14:40 batchprocesslogic.go:217: 同步批处理：总时间 totalTime costs 446.2703ms
+INFO: 2024/10/31 23:14:40 batchprocesslogic.go:218: 
+INFO: 2024/10/31 23:14:40 batchprocesslogic.go:219: 
+INFO: 2024/10/31 23:14:40 batchprocesslogic.go:220: 
+INFO: 2024/10/31 23:14:41 batchprocesslogic.go:61: 已经生成的中心线 数量： 100
+INFO: 2024/10/31 23:14:41 batchprocesslogic.go:95: 要处理的车道线线数量:  300
+INFO: 2024/10/31 23:14:41 batchprocesslogic.go:197: 同步批处理，生成centLines 0, Total time：122.3142ms
+INFO: 2024/10/31 23:14:41 batchprocesslogic.go:212: 同步批处理：存入数据库 centerLine counts: 0, totalTime costs 1.0004ms
+INFO: 2024/10/31 23:14:41 batchprocesslogic.go:217: 同步批处理：总时间 totalTime costs 124.3266ms
+INFO: 2024/10/31 23:14:41 batchprocesslogic.go:218: 
+INFO: 2024/10/31 23:14:41 batchprocesslogic.go:219: 
+INFO: 2024/10/31 23:14:41 batchprocesslogic.go:220: 
+INFO: 2024/10/31 23:14:42 batchprocesslogic.go:61: 已经生成的中心线 数量： 100
+INFO: 2024/10/31 23:14:42 batchprocesslogic.go:95: 要处理的车道线线数量:  300
+INFO: 2024/10/31 23:14:42 batchprocesslogic.go:197: 同步批处理，生成centLines 0, Total time：71.305ms
+INFO: 2024/10/31 23:14:42 batchprocesslogic.go:212: 同步批处理：存入数据库 centerLine counts: 0, totalTime costs 3.2561ms
+INFO: 2024/10/31 23:14:42 batchprocesslogic.go:217: 同步批处理：总时间 totalTime costs 77.5156ms
+INFO: 2024/10/31 23:14:42 batchprocesslogic.go:218: 
+INFO: 2024/10/31 23:14:42 batchprocesslogic.go:219: 
+INFO: 2024/10/31 23:14:42 batchprocesslogic.go:220: 

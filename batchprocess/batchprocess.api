@@ -1,0 +1,99 @@
+syntax = "v1"
+
+type (
+	errorResponse {
+		code    int32  `json:"code"`
+		message string `json:"message"`
+	}
+)
+
+type (
+	BatchProcessReq {
+		had_lane_link      HadLaneLink     `json:"had_lane_link,omitempty"`
+		had_lane_mark_line HadLaneMarkLine `json:"had_lane_mark_line,omitempty"`
+		mesh               string          `json:"mesh,omitempty"`
+	}
+)
+
+type (
+	HadLaneMarkLine {
+		Type     string            `json:"type,omitempty"`
+		Name     string            `json:"name,omitempty"`
+		Features []MarkLinkFeature `json:"features,omitempty"`
+	}
+	MarkLinkFeature {
+		Type       string             `json:"type,omitempty"`
+		properties MarkLinkProperties `json:"properties,omitempty"`
+		geometry   Geometry           `json:"geometry,omitempty"`
+	}
+	MarkLinkProperties {
+		gid        int64   `json:"gid,omitempty"`
+		id         float64 `json:"id,omitempty"`
+		lane_mark_ string  `json:"lane_mark_,omitempty"`
+		create_tim float64 `json:"create_tim,omitempty"`
+		update_tim float64 `json:"update_tim,omitempty"`
+		material_i string  `json:"material_i,omitempty"`
+		operator   string  `json:"operator,omitempty"`
+		version    float64 `json:"version,omitempty"`
+		mesh       string  `json:"mesh,omitempty"`
+		mark_type  float64 `json:"mark_type,omitempty"`
+		mark_color float64 `json:"mark_color,omitempty"`
+		mark_width float64 `json:"mark_width,omitempty"`
+		left_lane_ float64 `json:"left_lane_,omitempty"`
+		right_lane float64 `json:"right_lane,omitempty"`
+	}
+)
+
+type (
+	HadLaneLink {
+		Type     string            `json:"type,omitempty"`
+		Name     string            `json:"name,omitempty"`
+		Features []LaneLinkFeature `json:"features,omitempty"`
+	}
+	LaneLinkFeature {
+		Type       string             `json:"type,omitempty"`
+		Properties LankLinkProperties `json:"properties,omitempty"`
+		Geometry   Geometry           `json:"geometry,omitempty"`
+	}
+	LankLinkProperties {
+		gid        int64   `json:"gid,omitempty"`
+		id         float64 `json:"id,omitempty"`
+		lane_link_ string  `json:"lane_link_,omitempty"`
+		lg_id      float64 `json:"lg_id,omitempty"`
+		seq_num    float64 `json:"seq_num,omitempty"`
+		create_tim float64 `json:"create_tim,omitempty"`
+		update_tim float64 `json:"update_tim,omitempty"`
+		material_i string  `json:"material_i,omitempty"`
+		operator   string  `json:"operator,omitempty"`
+		version    float64 `json:"version,omitempty"`
+		mesh       string  `json:"mesh,omitempty"`
+		lane_type  float64 `json:"lane_type,omitempty"`
+		is_interse float64 `json:"is_interse,omitempty"`
+	}
+)
+
+type (
+	Geometry {
+		Type        string        `json:"type,omitempty"`
+		Coordinates [][][]float64 `json:"coordinates,omitempty"`
+	}
+)
+
+type (
+	ProcessClientReq {
+		laneOffset int32 `json:"laneOffset"`
+		laneLimit  int32 `json:"laneLimit"`
+		markOffset int32 `json:"markOffset"`
+		markLimit  int32 `json:"markLimit"`
+	}
+)
+
+service batchprocess-api {
+	@handler BatchProcess
+	post /batchProcess (BatchProcessReq) returns (errorResponse)
+
+	@handler ProcessClient
+	post /processClient (ProcessClientReq) returns (errorResponse)
+
+}
+

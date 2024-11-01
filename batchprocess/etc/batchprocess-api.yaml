@@ -1,0 +1,5 @@
+Name: batchprocess-api
+Host: 0.0.0.0
+Port: 8889
+# DataSource: postgres://username:password@localhost:5432/dbname?sslmode=disable
+DataSource: postgres://postgres:mirey@localhost:5432/postgres?sslmode=disable
