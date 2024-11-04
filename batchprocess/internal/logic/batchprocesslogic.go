@@ -11,7 +11,6 @@ import (
 	"log"
 	"math"
 	"os"
-	"sync"
 	"time"
 )
 
@@ -37,7 +36,7 @@ func (l *BatchProcessLogic) BatchProcess(req *types.BatchProcessReq) (resp types
 
 	// 打开或创建一个日志文件，使用 os.O_APPEND 以追加方式写入日志
 	var logFile, _ = os.OpenFile("batch_process_log.txt", os.O_CREATE|os.O_WRONLY|os.O_APPEND, 0666)
-	//defer logFile.Close() // 在程序结束时关闭文件
+	defer logFile.Close() // 在程序结束时关闭文件
 
 	// 创建两个 Logger 实例：一个用于 info，一个用于 error
 	var infoLogger = log.New(logFile, "INFO: ", log.Ldate|log.Ltime|log.Lshortfile)
@@ -62,53 +61,63 @@ func (l *BatchProcessLogic) BatchProcess(req *types.BatchProcessReq) (resp types
 	//infoLogger.Println(exeitsLines)
 	//markLines := make([]types.Line, 0)
 	var markLines []types.Line
-	var muMarkLines sync.Mutex
-	var wgMarkLines sync.WaitGroup
+	//var muMarkLines sync.Mutex
+	//var wgMarkLines sync.WaitGroup
 
 	for index, feature := range hadLandMarkLine.Features {
-		wgMarkLines.Add(1)
-		indexCopy := index
-		featureCopy := feature
-		go func(f types.MarkLinkFeature, index int) {
-			defer wgMarkLines.Done()
+		//wgMarkLines.Add(1)
+		//indexCopy := index
+		//featureCopy := feature
+		//go func(f types.MarkLinkFeature, index int) {
+		//	defer wgMarkLines.Done()
 
-			// 处理线段加入数组
-			var dx, dy float64
-			l := types.Line{}
-			l.Index = index
-			l.Geometry = feature.Geometry
-			for _, line := range feature.Geometry.Coordinates {
-				dx, dy = calculateDirection(line)
-				l.Dx = dx
-				l.Dy = dy
-				l.Points = line
-				l.LineORB = types.ConvertPointsToLineString(line)
-			}
-			muMarkLines.Lock()
-			markLines = append(markLines, l)
-			muMarkLines.Unlock()
-			//infoLogger.Println("预处理marlines：", l.Index)
-		}(featureCopy, indexCopy)
+		// 处理线段加入数组
+		var dx, dy float64
+		l := types.Line{}
+		l.Index = index
+		l.Gid = int(feature.Properties.Gid)
+		infoLogger.Println("gid: ", l.Gid)
+		l.Geometry = feature.Geometry
+		for _, line := range feature.Geometry.Coordinates {
+			dx, dy = calculateDirection(line)
+			l.Dx = dx
+			l.Dy = dy
+			l.Points = line
+			l.LineORB = types.ConvertPointsToLineString(line)
+		}
+		//muMarkLines.Lock()
+		markLines = append(markLines, l)
+		//muMarkLines.Unlock()
+		//infoLogger.Println("预处理marlines：", l.Index)
+		//}(featureCopy, indexCopy)
 	}
 
-	wgMarkLines.Wait()
+	//wgMarkLines.Wait()
 	infoLogger.Println("要处理的车道线线数量: ", len(markLines))
 	// 使用WaitGroup 确保 所有 中心线已经处理好
-
+	//var wgCenterLine sync.WaitGroup
 	var centerLins []types.Line
 	var linesA []types.Line
 	var linesB []types.Line
-	var muCenterLine sync.Mutex
-	var wgCenterLine sync.WaitGroup
-	//wgCenterLine.Add(len(markLines))
-	var isGenarated = make(map[int]bool)
+	//var muCenterLine sync.Mutex
+
+	//var isGenarated = make(map[int]bool)
+	//var length int = len(markLines)
+	//var isGennarated [length][length]int
+	length := len(markLines)
+	isGenerated := make([][]bool, length)
+	generatedCount := make([]int, length)
+	for i := range isGenerated {
+		isGenerated[i] = make([]bool, length)
+	}
+
 	// 判断线段是否相邻，是否同向。如果相邻且同向则 生成 中心线
 	//processCenterLineStartTime := time.Now()
 	//go func() {
 	processStartTime := time.Now()
 	for _, line := range markLines {
 		//infoLogger.Println("遍历所有中心线 ind: ", i)
-		wgCenterLine.Add(1)
+		//wgCenterLine.Add(1)
 		/*
 			每个协程启动时会传递 line 变量作为参数，但是在使用闭包的并发场景中，这样传递参数会产生 闭包变量捕获问题。
 			具体来说，line 是一个循环变量，它会在每次循环迭代时更新。
@@ -118,108 +127,206 @@ func (l *BatchProcessLogic) BatchProcess(req *types.BatchProcessReq) (resp types
 			一种常见的解决方法是，在循环中显式复制 line 的值给一个局部变量，然后传递该局部变量到协程中。
 			这样可以确保每个协程都使用不同的 line 实例。
 		*/
-		//l := line
-		lCopy := line
-		go func(l types.Line) { // l -> 新来的线段，
-			//infoLogger.Println("判断下标是否一致：", l.Index)
-			defer wgCenterLine.Done()
+		l := line
+		//lCopy := line
+		//go func(l types.Line) { // l -> 新来的线段，
+		//infoLogger.Println("判断下标是否一致：", l.Index)
+		//defer wgCenterLine.Done()
 
-			//muMarkLines.Lock()
-			//defer muMarkLines.Unlock()
-			//muCenterLine.Lock()
-			//if isAlreadyGenarated(isGenarated, l.Index) {
-			//	return
-			//	//continue
-			//}
-			//muCenterLine.Unlock()
-
-			minDistance := 100.0
-			minDistLineIndex := -1
-
-			dis := 0.0
-			for ind, li := range markLines {
-				if li.Index == l.Index {
-					continue
-				}
-				//muCenterLine.Lock()
-				//if isAlreadyGenarated(isGenarated, li.Index) {
-				//	continue
-				//}
-				//muCenterLine.Unlock()
-
-				dis = types.MinDistanceBetweenLines(l.LineORB, li.LineORB)
-				if dis < 10 && dis > 1 && dis < minDistance {
-					minDistance = dis
-					minDistLineIndex = ind
-				}
+		//muMarkLines.Lock()
+		//defer muMarkLines.Unlock()
+		//if isAlreadyGenarated(isGenarated, l.Index) {
+		//	//return
+		//	continue
+		//}
+		//minDistance := 100.0
+		INF := 999999999.9
+		minDistFirst := INF
+		minDistSecond := INF
+		minDistLineFirst := types.Line{}
+		minDistLineSecond := types.Line{}
+		//println(minDistLineSecond)
+		for _, li := range markLines {
+			if li.Index == l.Index {
+				continue
+			}
+			if isAlreadyGenarated(isGenerated, li.Index, l.Index) {
+				continue
 			}
 
-			if minDistLineIndex != -1 && checkSameDireton(markLines[minDistLineIndex], l) && types.CheckLimitedDeviation(markLines[minDistLineIndex], l) {
+			dis := types.MinDistanceBetweenLines(l.LineORB, li.LineORB)
+			//if dis < 10 && dis > 1 && dis < minDistance {
+			if dis < 10 && dis > 1 && dis < minDistFirst {
+				minDistSecond = minDistFirst
+				minDistFirst = dis
+				minDistLineSecond = minDistLineFirst
+				minDistLineFirst = li
+				//minDistance = dis
+				//minDistLineIndexFirst = ind
 
-				//dis := types.MinDistanceBetweenLines(markLines[minDistLineIndex].LineORB, l.LineORB)
-				//if dis > 1 {
-				centerLin := genarateCenterLine(markLines[minDistLineIndex], l, isGenarated, infoLogger)
+				//if !isGenerated[li.Index][l.Index] && !isGenerated[]
 
-				if !checkAlreadyExits(centerLin, exeitsLines) {
-					muCenterLine.Lock()
-					if !isGenarated[markLines[minDistLineIndex].Index] && !isGenarated[l.Index] {
-						centerLins = append(centerLins, centerLin)
-						linesA = append(linesA, markLines[minDistLineIndex])
-						linesB = append(linesB, l)
-						isGenarated[markLines[minDistLineIndex].Index] = true
-						isGenarated[l.Index] = true
-					}
-
-					muCenterLine.Unlock()
-					//}
-					//infoLogger.Println(isGenarated)
-				}
+				//if minDistLineIndex != -1 && checkSameDireton(markLines[minDistLineIndex], l) && types.CheckLimitedDeviation(markLines[minDistLineIndex], l) {
+				//
+				//	//dis := types.MinDistanceBetweenLines(markLines[minDistLineIndex].LineORB, l.LineORB)
+				//	//if dis > 1 {
+				//	centerLin := genarateCenterLine(markLines[minDistLineIndex], l)
+				//
+				//	if !checkAlreadyExits(centerLin, exeitsLines) {
+				//
+				//		centerLins = append(centerLins, centerLin)
+				//		linesA = append(linesA, markLines[minDistLineIndex])
+				//		linesB = append(linesB, l)
+				//		isGenerated[li.Index][l.Index] = true
+				//		isGenerated[l.Index][li.Index] = true
+				//		//}
+				//		//infoLogger.Println(isGenarated)
+				//	}
 				//else {
 				//	infoLogger.Println("不匹配：", l.Index, "  和 ：", markLines[minDistLineIndex].Index)
 				//}
+			} else if dis < 10 && dis > 1 && dis < minDistSecond {
+				minDistSecond = dis
+				minDistLineSecond = li
 			}
-			//} else {
-			//	infoLogger.Println("没有任何线与 该线匹配：", l.Index)
-			//}
 
-		}(lCopy)
+		}
+
+		if types.IsALeftOrRightOfB(l.LineORB, minDistLineFirst.LineORB) != types.IsALeftOrRightOfB(l.LineORB, minDistLineSecond.LineORB) {
+			if minDistFirst != INF && minDistSecond != INF {
+				if generatedCount[l.Index] < 2 && generatedCount[minDistLineFirst.Index] < 2 {
+					centerLin := genarateCenterLine(l, minDistLineFirst)
+
+					if !checkAlreadyExits(centerLin, exeitsLines) {
+
+						centerLins = append(centerLins, centerLin)
+						linesA = append(linesA, l)
+						linesB = append(linesB, minDistLineFirst)
+						isGenerated[minDistLineFirst.Index][l.Index] = true
+						isGenerated[l.Index][minDistLineFirst.Index] = true
+						generatedCount[l.Index]++
+						generatedCount[minDistLineFirst.Index]++
+						//}
+						//infoLogger.Println(isGenarated)
+					}
+
+				}
+				if generatedCount[l.Index] < 2 && generatedCount[minDistLineSecond.Index] < 2 {
+					centerLin := genarateCenterLine(l, minDistLineSecond)
+
+					if !checkAlreadyExits(centerLin, exeitsLines) {
+
+						centerLins = append(centerLins, centerLin)
+						linesA = append(linesA, l)
+						linesB = append(linesB, minDistLineSecond)
+						isGenerated[minDistLineSecond.Index][l.Index] = true
+						isGenerated[l.Index][minDistLineSecond.Index] = true
+						generatedCount[l.Index]++
+						generatedCount[minDistLineSecond.Index]++
+						//}
+						//infoLogger.Println(isGenarated)
+					}
+
+				}
+			} else if minDistSecond != INF {
+				centerLin := genarateCenterLine(l, minDistLineSecond)
+
+				if !checkAlreadyExits(centerLin, exeitsLines) {
+
+					centerLins = append(centerLins, centerLin)
+					linesA = append(linesA, l)
+					linesB = append(linesB, minDistLineSecond)
+					isGenerated[minDistLineSecond.Index][l.Index] = true
+					isGenerated[l.Index][minDistLineSecond.Index] = true
+					//}
+					//infoLogger.Println(isGenarated)
+				}
+			}
+
+		} else {
+			if minDistFirst != INF && generatedCount[l.Index] < 2 && generatedCount[minDistLineFirst.Index] < 2 {
+				centerLin := genarateCenterLine(l, minDistLineFirst)
+
+				if !checkAlreadyExits(centerLin, exeitsLines) {
+
+					centerLins = append(centerLins, centerLin)
+					linesA = append(linesA, l)
+					linesB = append(linesB, minDistLineFirst)
+					isGenerated[minDistLineFirst.Index][l.Index] = true
+					isGenerated[l.Index][minDistLineFirst.Index] = true
+					generatedCount[l.Index]++
+					generatedCount[minDistLineFirst.Index]++
+					//}
+					//infoLogger.Println(isGenarated)
+				}
+
+			}
+		}
+
 	}
+
+	//if minDistLineIndex != -1 && checkSameDireton(markLines[minDistLineIndex], l) && types.CheckLimitedDeviation(markLines[minDistLineIndex], l) {
+	//
+	//	//dis := types.MinDistanceBetweenLines(markLines[minDistLineIndex].LineORB, l.LineORB)
+	//	//if dis > 1 {
+	//	centerLin := genarateCenterLine(markLines[minDistLineIndex], l)
+	//
+	//	if !checkAlreadyExits(centerLin, exeitsLines) {
+	//
+	//		centerLins = append(centerLins, centerLin)
+	//		linesA = append(linesA, markLines[minDistLineIndex])
+	//		linesB = append(linesB, l)
+	//		isGenerated[markLines[minDistLineIndex].Index][l.Index] = true
+	//		isGenerated[l.Index][markLines[minDistLineIndex].Index] = true
+	//		//}
+	//		//infoLogger.Println(isGenarated)
+	//	}
+	//	//else {
+	//	//	infoLogger.Println("不匹配：", l.Index, "  和 ：", markLines[minDistLineIndex].Index)
+	//	//}
+	//}
+	//} else {
+	//	infoLogger.Println("没有任何线与 该线匹配：", l.Index)
+	//}
+
+	//}(lCopy)
+	//}
 	//}()
 
-	go func() {
-		wgCenterLine.Wait() // 等待所有中心线处理好
-		//infoLogger.Println("centerLine 数量： ", len(centerLins))
-		//processCenterLineTotalTime := time.Since(processCenterLineStartTime)
-		//str := fmt.Sprintf("Batch processing generate All center_line completed, total process mark_lines count: %d, total time costs %v", len(markLines), processCenterLineTotalTime)
-		//infoLogger.Println(str)
-		processTotalTime := time.Since(processStartTime)
-		str := fmt.Sprintf("同步批处理，生成centLines %d, Total time：%v", len(centerLins), processTotalTime)
-		infoLogger.Println(str)
+	//go func() {
+	//	wgCenterLine.Wait() // 等待所有中心线处理好
+	//infoLogger.Println("centerLine 数量： ", len(centerLins))
+	//processCenterLineTotalTime := time.Since(processCenterLineStartTime)
+	//str := fmt.Sprintf("Batch processing generate All center_line completed, total process mark_lines count: %d, total time costs %v", len(markLines), processCenterLineTotalTime)
+	//infoLogger.Println(str)
+	processTotalTime := time.Since(processStartTime)
+	str := fmt.Sprintf("同步批处理，生成centLines %d, Total time：%v", len(centerLins), processTotalTime)
+	infoLogger.Println(str)
 
-		saveStartTime := time.Now()
-		repo := repository.NewHadLaneCenterLineRepo(l.svcCtx.Db)
-		ctx := context.Background()
-		er := repo.SaveLAllToDatabase(ctx, centerLins, req.Mesh, linesA, linesB)
-		if er != nil {
-			log.Println("AAAFailed to insert to database: ", er)
-		}
-		er = repo.SaveAllToDatabase(ctx, centerLins, req.Mesh)
-		if er != nil {
-			log.Println("Failed to insert to database: ", er)
-		}
-		saveTotalTime := time.Since(saveStartTime)
-		str = fmt.Sprintf("同步批处理：存入数据库 centerLine counts: %d, totalTime costs %v", len(centerLins), saveTotalTime)
-		infoLogger.Println(str)
-		//
+	saveStartTime := time.Now()
+	repo := repository.NewHadLaneCenterLineRepo(l.svcCtx.Db)
+	ctx := context.Background()
+	er := repo.SaveLAllToDatabase(ctx, centerLins, req.Mesh, linesA, linesB)
+	if er != nil {
+		log.Println("AAAFailed to insert to database: ", er)
+	}
+	//er = repo.SaveAllToDatabase(ctx, centerLins, req.Mesh)
+	//if er != nil {
+	//	log.Println("Failed to insert to database: ", er)
+	//}
+	saveTotalTime := time.Since(saveStartTime)
+	str = fmt.Sprintf("同步批处理：存入数据库 centerLine counts: %d, totalTime costs %v", len(centerLins), saveTotalTime)
+	infoLogger.Println(str)
+	//
 
-		totalTime := time.Since(startTime)
-		str = fmt.Sprintf("同步批处理：总时间 totalTime costs %v", totalTime)
-		infoLogger.Println(str)
-		infoLogger.Println()
-		infoLogger.Println()
-		infoLogger.Println()
-		defer logFile.Close() // 在程序结束时关闭文件
-	}()
+	totalTime := time.Since(startTime)
+	str = fmt.Sprintf("同步批处理：总时间 totalTime costs %v", totalTime)
+	infoLogger.Println(str)
+	infoLogger.Println()
+	infoLogger.Println()
+	infoLogger.Println()
+	//	defer logFile.Close() // 在程序结束时关闭文件
+	//}()
 	resp.Code = 200
 	resp.Message = "success"
 	return
@@ -228,10 +335,10 @@ func (l *BatchProcessLogic) BatchProcess(req *types.BatchProcessReq) (resp types
 
 // isAlreadyGenarated
 // 是否已经生成过中心线
-func isAlreadyGenarated(m map[int]bool, index int) bool {
+func isAlreadyGenarated(m [][]bool, la, lb int) bool {
 	//muIsGenarated.Lock()
 	//defer muIsGenarated.Unlock()
-	if m[index] {
+	if m[la][lb] || m[lb][la] {
 		return true
 	}
 	return false
@@ -307,7 +414,7 @@ func caculateCenterPoint(pointA, pointB []float64) []float64 {
 
 // genarateCenterLine
 // 计算俩条线的中心线
-func genarateCenterLine(lineA, lineB types.Line, isGenarated map[int]bool, infoLogger *log.Logger) types.Line {
+func genarateCenterLine(lineA, lineB types.Line) types.Line {
 
 	var points [][]float64
 
@@ -339,6 +446,9 @@ func genarateCenterLine(lineA, lineB types.Line, isGenarated map[int]bool, infoL
 
 	l := types.Line{}
 	l.Geometry.Type = lineA.Geometry.Type
+	dx, dy := calculateDirection(points)
+	l.Dx = dx
+	l.Dy = dy
 	l.Points = points
 	l.Geometry.Coordinates = append(l.Geometry.Coordinates, points)
 
@@ -355,6 +465,7 @@ func dealAlreadyExitsLines(geoJson types.HadLaneLink) []types.Line {
 		// 处理线段加入数组
 		var dx, dy float64
 		l := types.Line{}
+		l.Gid = int(feature.Properties.Gid)
 		l.Index = index
 		l.Geometry = feature.Geometry
 		for _, line := range feature.Geometry.Coordinates {

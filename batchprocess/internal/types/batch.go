@@ -15,6 +15,45 @@ type Line struct {
 	Points   [][]float64    // line 中coordinates 经纬度的信息
 	Geometry Geometry       // 存到数据库的信息
 	LineORB  orb.LineString // line中点的 orbLinestring
+	Gid      int            // line 库中的 gid
+}
+
+// 计算向量叉积
+func crossProduct(p1, p2 orb.Point) float64 {
+	return p1[0]*p2[1] - p1[1]*p2[0]
+}
+
+// IsALeftOrRightOfB
+// 判断 A 在 B 的左侧还是右侧
+// > 0 A在B的左侧 => 1
+// < 0 A在B的右侧 => -1
+// = 0 平行或共线 => 0
+func IsALeftOrRightOfB(A, B orb.LineString) int {
+	if len(A) < 2 || len(B) < 2 {
+		return -999
+	}
+	// 选择 A 和 B 的起始点
+	A1 := A[0]
+	B1 := B[0]
+	B2 := B[1]
+
+	// 向量 BA 和 B方向
+	BA := orb.Point{A1[0] - B1[0], A1[1] - B1[1]}
+	Bdir := orb.Point{B2[0] - B1[0], B2[1] - B1[1]}
+
+	// 计算叉积
+	cross := crossProduct(BA, Bdir)
+
+	if cross > 0 {
+		//return "A 在 B 的左侧"
+		return 1
+	} else if cross < 0 {
+		//return "A 在 B 的右侧"
+		return -1
+	} else {
+		//return "A 和 B 共线或平行"
+		return 0
+	}
 }
 
 // ConvertToWKT
@@ -98,10 +137,11 @@ func IsLineIntersectingPolygon(polygon orb.Polygon, line orb.LineString) bool {
 
 // MinDistanceBetweenLines
 // 计算两条 LineString 之间的最小球面距离
+// 计算每对点的平均距离当成最小距离，防止线的极端情况
 func MinDistanceBetweenLines(line1, line2 orb.LineString) float64 {
 	minDistance := math.MaxFloat64
 
-	// 遍历 line1 和 line2 中的每个点对，计算球面距离
+	//遍历 line1 和 line2 中的每个点对，计算球面距离
 	for _, p1 := range line1 {
 		for _, p2 := range line2 {
 			distance := geo.Distance(p1, p2) // 使用球面距离计算
@@ -111,6 +151,47 @@ func MinDistanceBetweenLines(line1, line2 orb.LineString) float64 {
 		}
 	}
 	return minDistance
+
+	//totalDistance := 0.0
+	//pointCount := 0
+	//
+	//// 遍历 line1 和 line2 中的每个点对，计算球面距离并求和
+	//for _, p1 := range line1 {
+	//	for _, p2 := range line2 {
+	//		distance := geo.Distance(p1, p2) // 使用球面距离计算
+	//		totalDistance += distance
+	//		pointCount++
+	//	}
+	//}
+	//
+	//// 计算平均距离
+	//if pointCount == 0 {
+	//	return 0 // 防止除以零
+	//}
+	//return totalDistance / float64(pointCount)
+
+}
+
+// AverageDistanceBetweenLines
+// 平均距离
+func AverageDistanceBetweenLines(line1, line2 orb.LineString) float64 {
+	totalDistance := 0.0
+	pointCount := 0
+
+	// 遍历 line1 和 line2 中的每个点对，计算球面距离并求和
+	for _, p1 := range line1 {
+		for _, p2 := range line2 {
+			distance := geo.Distance(p1, p2) // 使用球面距离计算
+			totalDistance += distance
+			pointCount++
+		}
+	}
+
+	// 计算平均距离
+	if pointCount == 0 {
+		return 0 // 防止除以零
+	}
+	return totalDistance / float64(pointCount)
 }
 
 // CheckLimitedDeviation 检查较短的一条线段到较长线段的投影是否占较长线段长度的 70% 以上
